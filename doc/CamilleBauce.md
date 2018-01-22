@@ -23,5 +23,5 @@ Ma contribution se fait sur la recherche d'une carte de vol correspondant a nos 
 En effet , elle nécessite beaucoup plus d'énergie et est trop grosse pour la taille du drone , en plus son logiciel et firmware attaché ne permette pas de réalisé facilement les multiples installations leds futures.
 On ne peut pas non plus la coder nous meme, les algorithmes de stabilisation sont tres complexe (surtout a optimiser) et les seules ressource libre ne sont compatible qu'avec des cartes arduino retirées du marché ou des shield(gyro et accelerometre) aussi retiré .
 Finnalement la carte sera une carte deja codé mais avec le plus d'option possible , soit:
--une CC3D avec le firmware betaflight ou librePilot 
--une autre carte supportant librePilot
+ - une CC3D avec le firmware betaflight ou librePilot 
+ - une autre carte supportant librePilot
