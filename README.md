@@ -26,14 +26,14 @@ Nous souhaitons construire un drone de vitesse, équipée d'un caméra reliée �
 
 
 <h2>COMPOSANTS PRINCIPAUX :</h2>
-  - 1x Chassis
-  - 4x Moteurs
-  - 4x Controleurs de vitesse électronique (ESC)
-  - 4x Helices
-  - 1x Batterie
-  - 1x Controleur de vol (carte arduino ou non)
-  - 1x Lunettes FPV (on a les lunettes fatshark fpv 1100 avec sa camera)
-  - 1x Radio Emetteur/Recepteur (aka manette et recepteur de la manette pour la carte)
+  - 1x Chassis</n>
+  - 4x Moteurs</n>
+  - 4x Controleurs de vitesse électronique (ESC)</n>
+  - 4x Helices</n>
+  - 1x Batterie</n>
+  - 1x Controleur de vol (carte arduino ou non)</n>
+  - 1x Lunettes FPV (on a les lunettes fatshark fpv 1100 avec sa camera)</n>
+  - 1x Radio Emetteur/Recepteur (aka manette et recepteur de la manette pour la carte)</n>
   
  <h2>LIENS COMPOSANTS :</h2>
 <ul>
