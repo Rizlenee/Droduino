@@ -26,6 +26,7 @@ Nous souhaitons construire un drone de vitesse, équipée d'un caméra reliée �
 
 
 <h2>COMPOSANTS PRINCIPAUX :</h2>
+
   - 1x Chassis
   
   - 4x Moteurs
