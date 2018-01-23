@@ -22,11 +22,9 @@ Documentation :
   - 1x Radio Emetteur/Recepteur (aka manette et recepteur de la manette pour la carte)
   
   [LIENS COMPOSANTS]:
-  https://www.drone-fpv-racer.com/iflight-r1-x5-220mm-2350.html
-  https://fr.aliexpress.com/item/iFlight-R1-X5-220mm-FPV-Freestyle-Racing-Quadcopter-Frame-Kit-w-4mm-Removable-Arms-for-5/32825369264.html
-  https://www.ebay.fr/itm/4pcs-1804-2400KV-CW-CCW-Brushless-Motor-For-Mini-QAV-R-220mm-ZMR250-Robocat-270-/352186870096?hash=item51fff92950
-  https://www.aliexpress.com/item/RC-QuadCopter-UFO-4Axis-Kit-Hobbywing-10A-ESC-2400KV-Brushless-Motor-Straight-Pin-Flight-Control-Opensource/32579213085.html
 
+kit choisis : https://fr.aliexpress.com/item/250-Mini-Pure-Carbon-Fiber-Quadcopter-Frame-NAZE32-10DOF-Flight-Controller-EMAX-2204-2300KV-Motor-EMAX12A/32579129690.html (avec télécommande)
+batterie choisie : https://www.drone-fpv-racer.com/batterie-lipo-tattu-3s-1550mah-75c-501.html 3S 1550mAh 75C continue
 
 
 
