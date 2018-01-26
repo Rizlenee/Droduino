@@ -11,7 +11,7 @@ Listage des composants principaux nécessaire.
 ## SEANCE DU 12/01/2018
 Recherches plus détaillées de quels composants prendre et comment les assembler entre eux (compatibilité). Par exemple, quel moteur pour 
 quel type d'hélices. Documentation donc sur des moteurs à choisir (détails surle couple moteur, les kv, le pas...) par rapport aux hélices par rapport au poids prévisionnel maximum de tous le drone: 
-![tableau recapitulatif] https://user-images.githubusercontent.com/34765769/35444846-13223814-02b0-11e8-8e38-c6e308306b24.PNG
+![tableau recapitulatif](https://user-images.githubusercontent.com/34765769/35444846-13223814-02b0-11e8-8e38-c6e308306b24.PNG)
 source: http://www.dronelis.com/choix-des-moteurs-et-des-helices-pour-un-drone/
 
 Recherche également sur le poids moyen de chaque composant afin d'avoir une idée global de combien de gramme on ne doit pas dépasser pour 
@@ -24,7 +24,7 @@ Finalement après mise en communs à trois des différentes informations trouvé
 ## SEANCE DU 18/01/2017
 Choix du chassis, coup de coeur sur un chassis trouvé par Camille qui correspond à la taille choisi au caractéristique que l'on voulait
 (assez d'espace pour mettre tout les éléments):
-![chassis] https://user-images.githubusercontent.com/34765769/35444845-130c671e-02b0-11e8-815e-68201529b249.PNG
+![alt tag](https://user-images.githubusercontent.com/34765769/35444845-130c671e-02b0-11e8-815e-68201529b249.PNG)
 source: https://www.drone-fpv-racer.com/iflight-r1-x5-220mm-2350.html
 Recherche pour ma part sur les ESC et les moteurs (en parallèle avec Yasmin), tandis que Camille se concentre plus sur quelle carte de 
 vol. Il nous faut des moteurs autours de plus de 200kv et des ESC correspondants c'est pourquoi je préferais trouver des moteurs et des 
