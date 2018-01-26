@@ -25,6 +25,7 @@ Finalement après mise en communs à trois des différentes informations trouvé
 ## SEANCE DU 18/01/2017
 Choix du chassis, coup de coeur sur un chassis trouvé par Camille qui correspond à la taille choisi et aux caractéristiques que l'on voulait (assez d'espace pour mettre tout les éléments):
 ![alt tag](https://user-images.githubusercontent.com/34765769/35444845-130c671e-02b0-11e8-815e-68201529b249.PNG)
+
 source: https://www.drone-fpv-racer.com/iflight-r1-x5-220mm-2350.html
 
 Recherche pour ma part sur les ESC et les moteurs (en parallèle avec Yasmin), tandis que Camille se concentre plus sur quelle carte de 
