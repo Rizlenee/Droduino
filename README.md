@@ -48,6 +48,7 @@ Nous souhaitons construire un drone de vitesse, équipée d'un caméra reliée �
 <ul>
 <li>kit choisis : https://fr.aliexpress.com/item/250-Mini-Pure-Carbon-Fiber-Quadcopter-Frame-NAZE32-10DOF-Flight-Controller-EMAX-2204-2300KV-Motor-EMAX12A/32579129690.html (avec télécommande)</li>
 <li>batterie choisie : https://www.drone-fpv-racer.com/batterie-lipo-tattu-3s-1550mah-75c-501.html 3S 1550mAh 75C continue</li>
+<li>manuel de la SPRacingF3 (controlleur de vol) : http://seriouslypro.com/files/SPRacingF3-Manual-latest.pdf</li>
 </ul>
 
 
