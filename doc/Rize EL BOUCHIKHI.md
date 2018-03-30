@@ -57,3 +57,7 @@ Go Droduino !
 ## APRES-MIDI DU 15/02/2018
 Assemblage des moteurs et de leur ??, posage des pieds et des hélices.
 <p><img src="https://user-images.githubusercontent.com/34765769/38151115-34f63664-3462-11e8-9956-1a624f9994b2.png" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png" width="50%"></p>
+
+## JOURNEE DU 21/02/2018
+Comme on ne peut coller les deux cartes (carte de vol et carte de distribution de l'énergie), Camille est allée au Fablab pour des entretoises afin que les cartes puisses être fixées entre elle et avec le châssis (même si, pour des raisons d'ergonomie, on ne les fixe pas au maximum tout de suite)
+<p><img src="https://user-images.githubusercontent.com/34765769/38151835-30c9cecc-3465-11e8-8761-8c88ae11427f.png" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38151823-24c99d50-3465-11e8-9fad-8cf6959da6cc.png" width="50%"></p>
