@@ -56,5 +56,5 @@ Go Droduino !
 
 ## APRES-MIDI DU 15/02/2018
 Assemblage des moteurs et de leur ??, posage des pieds et des hélices.
-![15_02_2018 3](https://user-images.githubusercontent.com/34765769/38151115-34f63664-3462-11e8-9956-1a624f9994b2.png)
-![15_02_2018 2](https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png)
+![15_02_2018 3](https://user-images.githubusercontent.com/34765769/38151115-34f63664-3462-11e8-9956-1a624f9994b2.png | width=50)
+![15_02_2018 2](https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png | width=50)
