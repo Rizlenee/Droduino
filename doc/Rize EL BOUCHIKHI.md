@@ -69,5 +69,15 @@ Soudage des ESC avec les moteurs (préalablement fixés avec de l'adhésif). Mr 
   <I><FONT size="7 pt">(On avait re-enlevé les hélices peu de temps après les avoir installer car elles ne servent pas encore et sont plus gênante qu'autre chose pour l'instant)</FONT></I>
   
   
-Il restera encore a souder les esc à la plaque de distribution d'energie ainsi que la batterie (une fois qu'elle sera arrivée).
+Il restera encore à souder les esc à la plaque de distribution d'energie ainsi que la batterie (une fois qu'elle sera arrivée).
 
+## APRES MIDI DU 28/03/2018
+Retour au Fablab. On y a soudé les esc à la plaque de distribution d'énergie et on a ajouter (on a soudé d'autres) pins sur la carte de vol, meme si on ne les utilisera pas tous forcément, au cas où. On y a aussi pris quatres nouvelles entretoises et des vis (qu'il faudra changer car trop grandes) pour fixer les cartes.
+[--> prendre photos et les insérer.]
+
+
+## SEANCE DU 29/03/2018
+On a soudé la prise xt60 male à la carte de distribution. Cette prise permet de brancher la batterie (reçue la semaine d'avant) à la plaque de distribution de l'énergie et qui alimentera donc tout les composants du drone.
+[insérer photos]
+On a aussi récupérer la caméra et son casque fpv que l'on va bientôt installer.
+Maintenant que tout est branché, il faut connecter les esc avec la carte de vol et configurer ses pins. Et Tester les moteurs.
