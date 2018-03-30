@@ -61,3 +61,8 @@ Assemblage des moteurs et de leur ??, posage des pieds et des hélices.
 ## JOURNEE DU 21/02/2018
 Comme on ne peut coller les deux cartes (carte de vol et carte de distribution de l'énergie), Camille est allée au Fablab pour des entretoises afin que les cartes puisses être fixées entre elle et avec le châssis (même si, pour des raisons d'ergonomie, on ne les fixe pas au maximum tout de suite)
 <p><img src="https://user-images.githubusercontent.com/34765769/38151835-30c9cecc-3465-11e8-8761-8c88ae11427f.png" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38151823-24c99d50-3465-11e8-9fad-8cf6959da6cc.png" width="50%"></p>
+
+## SEANCE DU 16/03/2018
+Soudage des ESC avec les moteurs (préalablement fixés avec de l'adhésif). Mr FERRERO nous d'abord montré comment utiliser le fer à souder de la salle de Tp mais nous a ensuite conseillé d'aller effectuer les soudures au Fablab. On a donc terminé la séance au Fablab pour y faire nos soudures et on en a profité pour souder également des pins sur la carte de vol pour pouvoir y brancher des esc ou autres facilement
+<p><img src="https://user-images.githubusercontent.com/34765769/38151859-4480d7d0-3465-11e8-87b3-625beacd6584.png" width="25%"><img src="https://user-images.githubusercontent.com/34765769/38151864-468f1bc2-3465-11e8-9548-810819a12916.png" width="25%"><img src="https://user-images.githubusercontent.com/34765769/38151880-54ab165c-3465-11e8-83da-83d913b1439e.png" width="25%"><img src="https://user-images.githubusercontent.com/34765769/38151891-5b338004-3465-11e8-9a95-d4c214ee5086.png" width="25%"></p>
+
