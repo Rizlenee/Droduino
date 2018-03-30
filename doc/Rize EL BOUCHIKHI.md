@@ -54,3 +54,7 @@ Reception du kit (c'est-à-dire toutes les pièces du drone exceptée la batteri
 Pour le chassis, il ne reste plus qu'a fixer la partie supérieur et la partie inférieur ensemble (mais on le fera surement seulement après avoir mis les autres composants pour que ça soit plus facile à manier) et intégrer les autres composants. Puis, quand tout cela sera fini et que l'on aura reçu la batterie, nous pourrons enfin commencer les essais de vols !
 Go Droduino !
 
+## APRES-MIDI DU 15/02/2018
+Assemblage des moteurs et de leur ??, posage des pieds et des hélices.
+<p>![15_02_2018 3](https://user-images.githubusercontent.com/34765769/38151115-34f63664-3462-11e8-9956-1a624f9994b2.png)
+![15_02_2018 2](https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png)</p>
