@@ -81,3 +81,5 @@ On a soudé la prise xt60 male à la carte de distribution. Cette prise permet d
 [insérer photos]
 On a aussi récupérer la caméra et son casque fpv que l'on va bientôt installer.
 Maintenant que tout est branché, il faut connecter les esc avec la carte de vol et configurer ses pins. Et Tester les moteurs.
+
+## WEEK END DU 31/03/2018
