@@ -42,7 +42,7 @@ Il nous fallait des entretoises pour séparer la carte de vol et la carte de dis
  <p><img src="https://user-images.githubusercontent.com/34765769/38151859-4480d7d0-3465-11e8-87b3-625beacd6584.png" width="24%"></p>
   
  * <h2>Après-midi du 28 Mars 2018:</h2> 
- Nous avons esc à la plaque de distribution d'énergie et nous avons rajouté des pins.
+ Nous avons soudé les esc à la plaque de distribution d'énergie et nous avons rajouté des pins.
  
  * <h2>Séance du 28 Mars 2018:</h2>
  J'ai aidé au branchement de la prise de la batterie et regardé certaines presentations de mes camarades.
