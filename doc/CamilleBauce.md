@@ -37,6 +37,22 @@ Assemblage des moteurs et des esc sur le chassit. On en a aussi profiter pour v�
 <p><img src="https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png" width="50%"></p>
 
 ## 21 Fevrier 2018
-Le chassit du drone est compacte et on a besoin de fixer correctement la carte de vol pour ne pas embrouiller les capteurs avec des vibrations lors du vol ; la carte et plus précisement le magnétomêtre doit etre relativement éloigné de la carte de distibution ou un fort courrant passe car il pourrait déregler le capteur. Pour cela je suis allé chercher et tester quelques materiels au fablab, conclusion : des entretoises de 1cm (maxi car apres on ne peut plus visser la partie superieure du drone) pour séparer les deux cartes et des vis et écrous pour tenir le tout feront l'affaire.
+Le chassit du drone est compacte et on a besoin de fixer correctement la carte de vol pour ne pas embrouiller les capteurs avec des vibrations lors du vol ; la carte et plus précisement le magnétomêtre doit etre relativement éloigné de la carte de distibution ou un fort courrant passe car il pourrait déregler le capteur. Pour cela je suis allé chercher et tester quelques materiels au fablab, conclusion : des entretoises pour séparer les deux cartes et des vis et écrous pour tenir le tout feront l'affaire.
 <p><img src="https://user-images.githubusercontent.com/34765769/38151835-30c9cecc-3465-11e8-8761-8c88ae11427f.png" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38151823-24c99d50-3465-11e8-9fad-8cf6959da6cc.png" width="50%"></p>
+
+## Scéance du 16 Mars 2018
+Durant cette scéance nous avions prévu de commencer a souder les ESC au moteur. Malheureusement on ne peut pas prevoir dans quel sens vont tourner les moteurs apres cette soudure , nous allons donc devoir sans doute en refaire ou changer un parramêtre directement dans le programme des ESC (je ne sais pas comment faire mais c'est apparement possible lorsqu'ils sont connectés à la carte de vol).
+M.Ferrero nous a montrer comment faire puis conseillé d'aller au fablab faire les soudure avec un meilleur appareil , ce que nous avons fait. A la fin de la scéance nous avions fini toute les soudures entre ESC et moteur et même commencer celle de pin sur la FC (flight controller = carte de vol). Ces pins permettrons une meilleure 'modularité' dans le sens ou l'on pourra débrancher et rebrancher les composants tel que la radio ou les futures leds facilement et à volonté (et surtout de travailler tranquillement sans poste a souder).
+Il ne reste que quelques soudure suplémentaire : ESC - carte de distribution et quelque pins manquant.
+<p><img src="https://user-images.githubusercontent.com/34765769/38151864-468f1bc2-3465-11e8-9548-810819a12916.png" width="40%">
+  <img src="https://user-images.githubusercontent.com/34765769/38154237-4b716350-3471-11e8-9370-2bda3cc80a21.png" width="50%"></p>
+
+## 28 Mars 2018
+Au fablab on arrive a faire les dernières soudures , c'est a dire que les esc sont maintenant completement connectés et les pins prets a être branchés. En même temps on remarque que les premieres entretoises choisie étaient finalement trop petite donc on les change pour des 1cm (maxi car après on ne peut plus visser la partie superieure du drone).
+
+## Scéance du 29 Mars 
+La dernière soudure est faite , c'est a dire que la prise XT60 de la batterie peut maintenant etre branchée a la carte de distribution et ainsi allimenter la FC , ESC et moteur. On peut maintenant brancher et tester la radio , la camera FPV, et vérifier le sens des moteurs.
+Ainsi l'apres midi , je charge en partie une de nos batteries avec le chargeur Imax b6 , un rapel pour les prochaines fois penser aussi a connecter les pinces crocodiles , voici le montage pour recharger :
+<p><img scr =""
+
 
