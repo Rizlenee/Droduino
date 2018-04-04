@@ -55,7 +55,7 @@ Pour le chassis, il ne reste plus qu'a fixer la partie supérieur et la partie i
 Go Droduino !
 
 ## APRES-MIDI DU 15/02/2018
-Assemblage des moteurs et de leur ??, posage des pieds et des hélices.
+Assemblage des moteurs, posage des pieds et des hélices.
 <p><img src="https://user-images.githubusercontent.com/34765769/38151115-34f63664-3462-11e8-9956-1a624f9994b2.png" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png" width="50%"></p>
 
 ## JOURNEE DU 21/02/2018
@@ -72,14 +72,17 @@ Soudage des ESC avec les moteurs (préalablement fixés avec de l'adhésif). Mr 
 Il restera encore à souder les esc à la plaque de distribution d'energie ainsi que la batterie (une fois qu'elle sera arrivée).
 
 ## APRES MIDI DU 28/03/2018
-Retour au Fablab. On y a soudé les esc à la plaque de distribution d'énergie et on a ajouter (on a soudé d'autres) pins sur la carte de vol, meme si on ne les utilisera pas tous forcément, au cas où. On y a aussi pris quatres nouvelles entretoises et des vis (qu'il faudra changer car trop grandes) pour fixer les cartes.
-[--> prendre photos et les insérer.]
+Retour au Fablab. On y a soudé les esc à la plaque de distribution d'énergie et on a ajouté (on a soudé d'autres) pins sur la carte de vol et la plaque de distribution dn'énergie, même si on ne les utilisera pas tous forcément, au cas où. On y a aussi pris quatres nouvelles entretoises et des vis (qu'il faudra changer car trop grandes) pour fixer les cartes.
+<p><img src="https://user-images.githubusercontent.com/34765769/38322900-0ed78ed2-383c-11e8-9bd8-6660b87bb412.jpg" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38335934-67ce052e-3860-11e8-8017-b1cdd01d209c.jpg" width="50%"></p>
+
 
 
 ## SEANCE DU 29/03/2018
 On a soudé la prise xt60 male à la carte de distribution. Cette prise permet de brancher la batterie (reçue la semaine d'avant) à la plaque de distribution de l'énergie et qui alimentera donc tout les composants du drone.
-[insérer photos]
+<p><img src="https://user-images.githubusercontent.com/34765769/38336831-772221d8-3863-11e8-8d21-04378046296a.jpg" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38336870-94fb0daa-3863-11e8-8390-e26cdd1933e5.jpg" width="50%"></p>
 On a aussi récupérer la caméra et son casque fpv que l'on va bientôt installer.
-Maintenant que tout est branché, il faut connecter les esc avec la carte de vol et configurer ses pins. Et Tester les moteurs.
+Maintenant que tout est branché, il faut connecter les esc avec la carte de vol et configurer ses pins (si l'on a le temps car c'est de l'optimisation). Et Tester les moteurs.
 
 ## WEEK END DU 31/03/2018
+Changement des vis trop longues des cartes pour des vis à la bonne taille (enfin!). Camille avait déjà fait un premier test avec l'application Cleanflight (appli pour la carte de vol) pour les moteurs qui fonctionnait bien mais les moteurs tournent tous dans le même sens. J'ai essayé d'accéder aux esc pour reconfigurer le sens de rotation des moteurs (avec l'application BLHeli) mais les esc sont introuvables (on n'arrive pas à y accéder donc aucune reconfiguration possible). Après quelques recherches il semblerait qu'une solution serait de flasher les esc avec une autre carte arduino ou "simplement" d'inverser les branchements moteurs-esc, pour les moteurs concernés, afin de forcer le sens de rotation que l'on veut.
+J'ai également eu une révélation ! Le nom de "Droduino" avait été soumis a discussion et nous avions envisagé de le changer. Surtout que 'Droduino' est la combinaison de 'drone' et 'arduino' mais on n'utilise finalement pas de carte arduino. Notre drone s'appelera donc... Flash McDrone ! (référence au célèbre Flash McQueen). Le nom du project reste toujours 'Droduino', mais le nom du drone en lui-même devient Flash McDrone :D.
