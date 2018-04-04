@@ -1,6 +1,6 @@
 # CARNET DE BORD DE YASMIN 
 
-* Séance du 22 Décembre 2017:
+<Strong>* Séance du 22 Décembre 2017:</Strong>
 
 Nous avons réflechi à un sujet pour le projet. Après avoir longuement discuté avec les deux autres membres du groupe, nous nous sommes
 décidé sur la coonception d'un drône. Puis après concertation avec Mr Masson, nous avons finit par choisir de faire un drône de vitesse
@@ -26,3 +26,5 @@ J'ai également commencé à préparer la présentation orale.
 
 Nous avons fait notre présentation du projet et j'ai ecouté les présentations des autres. Nous avons également posé pour le magazine de la 
 CASA avec le drone fait par Julien l'an dernier.
+
+* Séance
