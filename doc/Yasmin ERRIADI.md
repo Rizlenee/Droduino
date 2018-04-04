@@ -1,6 +1,6 @@
-# CARNET DE BORD DE YASMIN 
+<h1>CARNET DE BORD DE YASMIN</h1> 
 
-* <h1>Séance du 22 Décembre 2017:</h1>
+* <h2>Séance du 22 Décembre 2017:</h2>
 
 Nous avons réflechi à un sujet pour le projet. Après avoir longuement discuté avec les deux autres membres du groupe, nous nous sommes
 décidé sur la coonception d'un drône. Puis après concertation avec Mr Masson, nous avons finit par choisir de faire un drône de vitesse
