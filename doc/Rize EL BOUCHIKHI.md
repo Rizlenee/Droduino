@@ -59,30 +59,31 @@ Assemblage des moteurs, posage des pieds et des hélices.
 <p><img src="https://user-images.githubusercontent.com/34765769/38151115-34f63664-3462-11e8-9956-1a624f9994b2.png" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png" width="50%"></p>
 
 ## JOURNEE DU 21/02/2018
-Comme on ne peut coller les deux cartes (carte de vol et carte de distribution de l'énergie), Camille est allée au Fablab pour des entretoises afin que les cartes puisses être fixées entre elle et avec le châssis (même si, pour des raisons d'ergonomie, on ne les fixe pas au maximum tout de suite)
+Comme on ne peut coller les deux cartes (carte de vol et plaque de distribution de l'énergie), Camille est allée au Fablab pour des entretoises afin que les cartes puisses être fixées entre elle et avec le châssis (même si, pour des raisons d'ergonomie, on ne les fixe pas au maximum tout de suite).
 <p><img src="https://user-images.githubusercontent.com/34765769/38151835-30c9cecc-3465-11e8-8761-8c88ae11427f.png" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38151823-24c99d50-3465-11e8-9fad-8cf6959da6cc.png" width="50%"></p>
 
 ## SEANCE DU 16/03/2018
-Soudage des ESC avec les moteurs (préalablement fixés avec de l'adhésif). Mr FERRERO nous d'abord montré comment utiliser le fer à souder de la salle de Tp mais nous a ensuite conseillé d'aller effectuer les soudures au Fablab. On a donc terminé la séance au Fablab pour y faire nos soudures et on en a profité pour souder également des pins sur la carte de vol pour pouvoir y brancher des esc ou autres facilement
+Soudage des ESC avec les moteurs (préalablement fixés avec de l'adhésif). Mr FERRERO nous d'abord montré comment utiliser le fer à souder de la salle de Tp mais nous a ensuite conseillé d'aller effectuer les soudures au Fablab. On a donc terminé la séance au Fablab pour y faire nos soudures et on en a profité pour souder également des pins sur la carte de vol pour pouvoir y brancher des esc ou autres facilement.
 <p><img src="https://user-images.githubusercontent.com/34765769/38151859-4480d7d0-3465-11e8-87b3-625beacd6584.png" width="24%"><img src="https://user-images.githubusercontent.com/34765769/38151864-468f1bc2-3465-11e8-9548-810819a12916.png" width="24%">
   <img src="https://user-images.githubusercontent.com/34765769/38154237-4b716350-3471-11e8-9370-2bda3cc80a21.png" width="24%" ><img src="https://user-images.githubusercontent.com/34765769/38151891-5b338004-3465-11e8-9a95-d4c214ee5086.png" width="24%" height="196px"></p>
-  <I><FONT size="7 pt">(On avait re-enlevé les hélices peu de temps après les avoir installer car elles ne servent pas encore et sont plus gênante qu'autre chose pour l'instant)</FONT></I>
+  <I>(On avait re-enlevé les hélices peu de temps après les avoir installées car elles ne servent pas encore et sont plus gênantes qu'autre chose pour le moment)</I>
   
   
 Il restera encore à souder les esc à la plaque de distribution d'energie ainsi que la batterie (une fois qu'elle sera arrivée).
 
 ## APRES MIDI DU 28/03/2018
-Retour au Fablab. On y a soudé les esc à la plaque de distribution d'énergie et on a ajouté (on a soudé d'autres) pins sur la carte de vol et la plaque de distribution dn'énergie, même si on ne les utilisera pas tous forcément, au cas où. On y a aussi pris quatres nouvelles entretoises et des vis (qu'il faudra changer car trop grandes) pour fixer les cartes.
+Retour au Fablab. On y a soudé les esc à la plaque de distribution d'énergie et on a ajouté (on a soudé d'autres) pins sur la carte de vol et la plaque de distribution d'énergie, même si on ne les utilisera pas tous forcément, au cas où. On y a aussi pris quatres nouvelles entretoises et des vis (qu'il faudra changer car trop grandes) pour fixer les cartes.
 <p><img src="https://user-images.githubusercontent.com/34765769/38322900-0ed78ed2-383c-11e8-9bd8-6660b87bb412.jpg" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38335934-67ce052e-3860-11e8-8017-b1cdd01d209c.jpg" width="50%"></p>
 
 
 
 ## SEANCE DU 29/03/2018
-On a soudé la prise xt60 male à la carte de distribution. Cette prise permet de brancher la batterie (reçue la semaine d'avant) à la plaque de distribution de l'énergie et qui alimentera donc tout les composants du drone.
+On a soudé la prise xt60 male à la carte de distribution. Cette prise permet de brancher la batterie (reçue la semaine d'avant) à la plaque de distribution d'énergie et ainsi d'alimenter tout les composants du drone.
 <p><img src="https://user-images.githubusercontent.com/34765769/38336831-772221d8-3863-11e8-8d21-04378046296a.jpg" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38336870-94fb0daa-3863-11e8-8390-e26cdd1933e5.jpg" width="50%"></p>
-On a aussi récupérer la caméra et son casque fpv que l'on va bientôt installer.
+On a aussi récupéré la caméra et son casque fpv que l'on va bientôt installer.
 Maintenant que tout est branché, il faut connecter les esc avec la carte de vol et configurer ses pins (si l'on a le temps car c'est de l'optimisation). Et Tester les moteurs.
 
 ## WEEK END DU 31/03/2018
-Changement des vis trop longues des cartes pour des vis à la bonne taille (enfin!). Camille avait déjà fait un premier test avec l'application Cleanflight (appli pour la carte de vol) pour les moteurs qui fonctionnait bien mais les moteurs tournent tous dans le même sens. J'ai essayé d'accéder aux esc pour reconfigurer le sens de rotation des moteurs (avec l'application BLHeli) mais les esc sont introuvables (on n'arrive pas à y accéder donc aucune reconfiguration possible). Après quelques recherches il semblerait qu'une solution serait de flasher les esc avec une autre carte arduino ou "simplement" d'inverser les branchements moteurs-esc, pour les moteurs concernés, afin de forcer le sens de rotation que l'on veut.
-J'ai également eu une révélation ! Le nom de "Droduino" avait été soumis a discussion et nous avions envisagé de le changer. Surtout que 'Droduino' est la combinaison de 'drone' et 'arduino' mais on n'utilise finalement pas de carte arduino. Notre drone s'appelera donc... Flash McDrone ! (référence au célèbre Flash McQueen). Le nom du project reste toujours 'Droduino', mais le nom du drone en lui-même devient Flash McDrone :D.
+Changement des vis trop longues des cartes pour des vis à la bonne taille (enfin!). Second test des moteurs avec l'application Cleanflight, appli pour la carte de vol, (Camille avait déjà fait un premier test qui au final avait donné les mêmes résultats).Les moteursfonctionnent bien mais ils tournent tous dans le même sens. J'ai essayé d'accéder aux esc pour reconfigurer leur sens de rotation (avec l'application BLHeli) mais les esc sont introuvables (on n'arrive pas à y accéder donc aucune reconfiguration possible). Après quelques recherches il semblerait qu'une solution serait de flasher les esc avec une autre carte arduino ou "simplement" d'inverser les branchements moteurs-esc, pour les moteurs concernés, afin de forcer le sens de rotation que l'on veut.
+
+Parallèlement, nouvelle révélation ! Le nom de "Droduino" avait été soumis a discussion et nous avions envisagé de le changer. Surtout que 'Droduino' est la combinaison de 'drone' et 'arduino' mais nous n'utilisons finalement pas de carte arduino. Notre drone s'appelera donc... Flash McDrone ! (référence au célèbre Flash McQueen). Le nom du project reste toujours 'Droduino', mais le nom du drone en lui-même devient Flash McDrone :D.
