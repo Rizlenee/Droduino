@@ -79,7 +79,8 @@ Retour au Fablab. On y a soudé les esc à la plaque de distribution d'énergie 
 
 ## SEANCE DU 29/03/2018
 On a soudé la prise xt60 male à la carte de distribution. Cette prise permet de brancher la batterie (reçue la semaine d'avant) à la plaque de distribution d'énergie et ainsi d'alimenter tout les composants du drone.
-<p><img src="https://user-images.githubusercontent.com/34765769/38336831-772221d8-3863-11e8-8d21-04378046296a.jpg" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38336870-94fb0daa-3863-11e8-8390-e26cdd1933e5.jpg" width="50%" height="350px"></p>
+<p><img src="https://user-images.githubusercontent.com/34765769/38336831-772221d8-3863-11e8-8d21-04378046296a.jpg" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38338727-1408feb6-386b-11e8-8249-c765825eb2cc.jpg" width="50%"></p>
+
 On a aussi récupéré la caméra et son casque fpv que l'on va bientôt installer.
 Maintenant que tout est branché, il faut connecter les esc avec la carte de vol et configurer ses pins (si l'on a le temps car c'est de l'optimisation). Et Tester les moteurs.
 
