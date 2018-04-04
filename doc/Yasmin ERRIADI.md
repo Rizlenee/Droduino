@@ -35,11 +35,11 @@ Nous n'assemblerons les deux parties du chassis qu'une fois que l'on aura ajout�
 Nous avons vissé les moteurs au chassis puis nous avons mis les hélices que nous n'avons pas laissé par manque de praticité.
 * <h2>Journée du 21 Février 2018:</h2>
 Il nous fallait des entretoises pour séparer la carte de vol et la carte de distribution d'énergie que camille est allée au fablab:
-<p><img src="https://user-images.githubusercontent.com/34765769/38151835-30c9cecc-3465-11e8-8761-8c88ae11427f.png" width="50%">
+<p><img src="https://user-images.githubusercontent.com/34765769/38151835-30c9cecc-3465-11e8-8761-8c88ae11427f.png" width="50%"></p>
  
  * <h2>Séance du 16 Mars 2018:</h2>
  Nous avons soudé les esc avec les moteurs, d'abord Mr.Ferreronous a montré puis nous sommes allé au Fablab. Puis nous avons soudé des pins à la carte de vol pour y brancher les ecs ou les led plus tard.
- <p><img src="https://user-images.githubusercontent.com/34765769/38151859-4480d7d0-3465-11e8-87b3-625beacd6584.png" width="24%">
+ <p><img src="https://user-images.githubusercontent.com/34765769/38151859-4480d7d0-3465-11e8-87b3-625beacd6584.png" width="24%"></p>
   
  * <h2>Après-midi du 28 Mars 2018:</h2> 
  Nous avons esc à la plaque de distribution d'énergie et nous avons rajouté des pins.
