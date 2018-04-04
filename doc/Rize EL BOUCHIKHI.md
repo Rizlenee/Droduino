@@ -65,7 +65,7 @@ Comme on ne peut coller les deux cartes (carte de vol et plaque de distribution 
 ## SEANCE DU 16/03/2018
 Soudage des ESC avec les moteurs (préalablement fixés avec de l'adhésif). Mr FERRERO nous d'abord montré comment utiliser le fer à souder de la salle de Tp mais nous a ensuite conseillé d'aller effectuer les soudures au Fablab. On a donc terminé la séance au Fablab pour y faire nos soudures et on en a profité pour souder également des pins sur la carte de vol pour pouvoir y brancher des esc ou autres facilement.
 <p><img src="https://user-images.githubusercontent.com/34765769/38151859-4480d7d0-3465-11e8-87b3-625beacd6584.png" width="24%"><img src="https://user-images.githubusercontent.com/34765769/38151864-468f1bc2-3465-11e8-9548-810819a12916.png" width="24%">
-  <img src="https://user-images.githubusercontent.com/34765769/38154237-4b716350-3471-11e8-9370-2bda3cc80a21.png" width="24%" ><img src="https://user-images.githubusercontent.com/34765769/38151891-5b338004-3465-11e8-9a95-d4c214ee5086.png" width="24%" height="196px"></p>
+  <img src="https://user-images.githubusercontent.com/34765769/38154237-4b716350-3471-11e8-9370-2bda3cc80a21.png" width="24%" ><img src="https://user-images.githubusercontent.com/34765769/38338727-1408feb6-386b-11e8-8249-c765825eb2cc.jpg" width="24%"></p>
   <I>(On avait re-enlevé les hélices peu de temps après les avoir installées car elles ne servent pas encore et sont plus gênantes qu'autre chose pour le moment)</I>
   
   
