@@ -52,7 +52,19 @@ Au fablab on arrive a faire les dernières soudures , c'est a dire que les esc s
 
 ## Scéance du 29 Mars 
 La dernière soudure est faite , c'est a dire que la prise XT60 de la batterie peut maintenant etre branchée a la carte de distribution et ainsi allimenter la FC , ESC et moteur. On peut maintenant brancher et tester la radio , la camera FPV, et vérifier le sens des moteurs.
-Ainsi l'apres midi , je charge en partie une de nos batteries avec le chargeur Imax b6 , un rapel pour les prochaines fois penser aussi a connecter les pinces crocodiles , voici le montage pour recharger :
-<p><img scr =""
+Ainsi l'apres midi , je charge en partie une de nos batteries avec le chargeur Imax b6 , quelques rapels pour les prochaines fois :
+-penser à connecter les pinces crocodiles 
+-vérifier que le programme est soit sur LIPO charge ou LIPO balance et surtout 3S
+-placer le chargeur sur une surface non conductrice et froide (le sol par example)
+-charger a un ampérage de maximum capacité de la baterie , soit pour la notre a 1550mAh max : 1.5A.
+
+Voici le montage exact pour recharger :
+<p><img scr ="https://user-images.githubusercontent.com/34765769/38322399-91de6ff0-383a-11e8-9991-9b4da792d61c.jpg"></p>
+Une fois chargé partiellement j'ai testé le sens de rotation des moteurs et ils tournent tous dans le même sens ! Ce qui correspond que les moteurs 1 et 4 sont inversés. Il faut donc trouver un moyen d'inverser leur sens de rotation.
+
+## Week end du 31 Mars au 1er Avril 2018
+Rizlene et moi chacune de notre coté avont fait nos recherche pour trouver un moyen d'inverser le sens de rotation des deux moteurs. Une solution qui a parru d'abbord simple était d'inversé le sens grâce a un parramêtre normalement changeable du programme des ESC. Malheureusement celui-ci n'est pas accessible car on ne peut pas communiquer avec nos ESC depuis la FC et ils ne présente pas de 'pin' visible pour communiquer , on en est arrivé a la conclusion que nos ESC n'était finalement pas programable , nous allons donc dessouder ces deux moteurs et les ressouder en inverssant leur + et - , ce qui aura pour effet d'inversé leur sens actuels de rotation. 
+
+
 
 
