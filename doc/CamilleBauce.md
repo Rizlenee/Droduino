@@ -31,3 +31,12 @@ Les premières pièces ont été reçu soit toute les pièces nécessaire au mon
 <img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage1.JPG" width="33%">
 <img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage2.JPG" width="33%">
 <img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage3.JPG" width="33%">
+
+## 15 Fevrier 2018
+Assemblage des moteurs et des esc sur le chassit. On en a aussi profiter pour vérifié les couples moteurs hélices , en effet les quatres hélices ne sont pas 'montées' dans le même sens , c'est a dire qu'elles produisent pour le même sens de rotation soit une poussée vers le haut soit vers le bas. Les deux d'une même couleur sont inversée et les moteurs avec la même couleurs d'écrou sont de même sens.
+<p><img src="https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png" width="50%"></p>
+
+## 21 Fevrier 2018
+Le chassit du drone est compacte et on a besoin de fixer correctement la carte de vol pour ne pas embrouiller les capteurs avec des vibrations lors du vol ; la carte et plus précisement le magnétomêtre doit etre relativement éloigné de la carte de distibution ou un fort courrant passe car il pourrait déregler le capteur. Pour cela je suis allé chercher et tester quelques materiels au fablab, conclusion : des entretoises de 1cm (maxi car apres on ne peut plus visser la partie superieure du drone) pour séparer les deux cartes et des vis et écrous pour tenir le tout feront l'affaire.
+<p><img src="https://user-images.githubusercontent.com/34765769/38151835-30c9cecc-3465-11e8-8761-8c88ae11427f.png" width="50%"><img src="https://user-images.githubusercontent.com/34765769/38151823-24c99d50-3465-11e8-9fad-8cf6959da6cc.png" width="50%"></p>
+
