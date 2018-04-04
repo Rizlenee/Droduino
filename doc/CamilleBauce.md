@@ -59,7 +59,7 @@ Ainsi l'apres midi , je charge en partie une de nos batteries avec le chargeur I
 -charger a un ampérage de maximum capacité de la baterie , soit pour la notre a 1550mAh max : 1.5A.
 
 Voici le montage exact pour recharger :
-<p><img scr ="https://user-images.githubusercontent.com/34765769/38322399-91de6ff0-383a-11e8-9991-9b4da792d61c.jpg"></p>
+<p><img src ="https://user-images.githubusercontent.com/34765769/38322399-91de6ff0-383a-11e8-9991-9b4da792d61c.jpg"></p>
 Une fois chargé partiellement j'ai testé le sens de rotation des moteurs et ils tournent tous dans le même sens ! Ce qui correspond que les moteurs 1 et 4 sont inversés. Il faut donc trouver un moyen d'inverser leur sens de rotation.
 
 ## Week end du 31 Mars au 1er Avril 2018
