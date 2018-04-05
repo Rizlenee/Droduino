@@ -53,10 +53,10 @@ Au fablab on arrive a faire les dernières soudures , c'est a dire que les esc s
 ## Scéance du 29 Mars 
 La dernière soudure est faite , c'est a dire que la prise XT60 de la batterie peut maintenant etre branchée a la carte de distribution et ainsi allimenter la FC , ESC et moteur. On peut maintenant brancher et tester la radio , la camera FPV, et vérifier le sens des moteurs.
 Ainsi l'apres midi , je charge en partie une de nos batteries avec le chargeur Imax b6 , quelques rapels pour les prochaines fois :
--penser à connecter les pinces crocodiles 
--vérifier que le programme est soit sur LIPO charge ou LIPO balance et surtout 3S
--placer le chargeur sur une surface non conductrice et froide (le sol par example)
--charger a un ampérage de maximum capacité de la baterie , soit pour la notre a 1550mAh max : 1.5A.
+<ul><li>penser à connecter les pinces crocodiles</li>
+ <li>vérifier que le programme est soit sur LIPO charge ou LIPO balance et surtout 3S</li>
+ <li>placer le chargeur sur une surface non conductrice et froide (le sol par example)</li>
+<li>charger a un ampérage de maximum capacité de la baterie , soit pour la notre a 1550mAh max : 1.5A</li>
 
 Voici le montage exact pour recharger :
 <p><img src ="https://user-images.githubusercontent.com/34765769/38322399-91de6ff0-383a-11e8-9991-9b4da792d61c.jpg"></p>
