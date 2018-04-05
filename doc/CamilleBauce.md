@@ -56,7 +56,7 @@ Ainsi l'apres midi , je charge en partie une de nos batteries avec le chargeur I
 <ul><li>penser à connecter les pinces crocodiles</li>
  <li>vérifier que le programme est soit sur LIPO charge ou LIPO balance et surtout 3S</li>
  <li>placer le chargeur sur une surface non conductrice et froide (le sol par example)</li>
-<li>charger a un ampérage de maximum capacité de la baterie , soit pour la notre a 1550mAh max : 1.5A</li>
+<li>charger a un ampérage de maximum capacité de la baterie , soit pour la notre a 1550mAh max : 1.5A</li></ul>
 
 Voici le montage exact pour recharger :
 <p><img src ="https://user-images.githubusercontent.com/34765769/38322399-91de6ff0-383a-11e8-9991-9b4da792d61c.jpg"></p>
