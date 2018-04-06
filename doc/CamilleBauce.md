@@ -65,6 +65,7 @@ Une fois chargé partiellement j'ai testé le sens de rotation des moteurs et il
 ## Week end du 31 Mars au 1er Avril 2018
 Rizlene et moi chacune de notre coté avont fait nos recherche pour trouver un moyen d'inverser le sens de rotation des deux moteurs. Une solution qui a parru d'abbord simple était d'inversé le sens grâce a un parramêtre normalement changeable du programme des ESC. Malheureusement celui-ci n'est pas accessible car on ne peut pas communiquer avec nos ESC depuis la FC et ils ne présente pas de 'pin' visible pour communiquer , on en est arrivé a la conclusion que nos ESC n'était finalement pas programable , nous allons donc dessouder ces deux moteurs et les ressouder en inverssant leur + et - , ce qui aura pour effet d'inversé leur sens actuels de rotation. 
 
-
+## Scéance du 5 Avril
+Pendant la seance nous avons inversé les soudures des deux moteurs , tout les moteurs tournent maintenant dans le bon sens. On a aussi branché la radio sur la FC. Le drone est maintenant pret a voler , il n'y a plus qu'a rajouter les hélices !
 
 
