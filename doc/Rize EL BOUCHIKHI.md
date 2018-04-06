@@ -87,6 +87,13 @@ Maintenant que tout est branché, il faut connecter les esc avec la carte de vol
 ## WEEK END DU 31/03/2018
 Changement des vis trop longues des cartes pour des vis à la bonne taille (enfin!). Second test des moteurs avec l'application Cleanflight, appli pour la carte de vol, (Camille avait déjà fait un premier test qui au final avait donné les mêmes résultats).Les moteursfonctionnent bien mais ils tournent tous dans le même sens. J'ai essayé d'accéder aux esc pour reconfigurer leur sens de rotation (avec l'application BLHeli) mais les esc sont introuvables (on n'arrive pas à y accéder donc aucune reconfiguration possible). Après quelques recherches il semblerait qu'une solution serait de flasher les esc avec une autre carte arduino ou "simplement" d'inverser les branchements moteurs-esc, pour les moteurs concernés, afin de forcer le sens de rotation que l'on veut.
 
+Interface cleanflight:
+<img src="https://user-images.githubusercontent.com/34765769/38423767-27105e2e-39af-11e8-904b-f68d8ce12e21.png">
+Interface BLHeli:
+<img src="(https://user-images.githubusercontent.com/34765769/38423769-29bdd99e-39af-11e8-9197-0e369d437109.png">
+
 Parallèlement, nouvelle révélation ! Le nom de "Droduino" avait été soumis a discussion et nous avions envisagé de le changer. Surtout que 'Droduino' est la combinaison de 'drone' et 'arduino' mais nous n'utilisons finalement pas de carte arduino. Notre drone s'appelera donc... Flash McDrone ! (référence au célèbre Flash McQueen). Le nom du project reste toujours 'Droduino', mais le nom du drone en lui-même devient Flash McDrone :D.
 
 ## SEANCE DU 05/04/2018
+Recherche sur la radio et la télécommande. Début du branchement de la radio à terminer ce week end. (Camille et Yasmin ont aussi pu désouder et resouder dans le sens voulu les moteurs dont on veut inverser le sens de rotation)
+To do ce week-end:branchement radio et télécommande; recherches pour les leds batterie et de positionnement pour pouvoir les commander la semaine prochaine (récupérer notamment la taille des leds phares comme celles qu'utilisent Chapoulie et Benjamin Vouillon); nouveau test des moteurs voir si le sens bon auquel cas --> posage des hélices. Puis premiers vols si tout vas bien, enfin ! Youpi :D
