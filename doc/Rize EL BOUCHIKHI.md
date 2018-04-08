@@ -91,7 +91,7 @@ Interface cleanflight:
 <img src="https://user-images.githubusercontent.com/34765769/38423767-27105e2e-39af-11e8-904b-f68d8ce12e21.png">
 
 Interface BLHeli:
-<img src="https://user-images.githubusercontent.com/34765769/38423769-29bdd99e-39af-11e8-9197-0e369d437109.png">
+<p><img src="https://user-images.githubusercontent.com/34765769/38423769-29bdd99e-39af-11e8-9197-0e369d437109.png"></p>
 
 Parallèlement, nouvelle révélation ! Le nom de "Droduino" avait été soumis a discussion et nous avions envisagé de le changer. Surtout que 'Droduino' est la combinaison de 'drone' et 'arduino' mais nous n'utilisons finalement pas de carte arduino. Notre drone s'appelera donc... Flash McDrone ! (référence au célèbre Flash McQueen). Le nom du project reste toujours 'Droduino', mais le nom du drone en lui-même devient Flash McDrone :D.
 
