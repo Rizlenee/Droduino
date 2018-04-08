@@ -68,4 +68,41 @@ Rizlene et moi chacune de notre coté avont fait nos recherche pour trouver un m
 ## Scéance du 5 Avril
 Pendant la seance nous avons inversé les soudures des deux moteurs , tout les moteurs tournent maintenant dans le bon sens. On a aussi branché la radio sur la FC. Le drone est maintenant pret a voler , il n'y a plus qu'a rajouter les hélices !
 
+## Vendredi 6 Avril
+Reconfiguration des ESC : dans le panel moteur mise a 2000 puis descente rapide a 1000. Les ESC 'chantent' alors pendant une seconde pour dire qu'ils sont configurer. Lors de cette phase tout les moteurs ont tourné correctement et les ESC n'ont pas beaucoup chauffé , ce qui est bon signe.
+
+La radio branché , il faut la synchronisée , c'est a dire allumé le drone (lipo branchée) , appuyer pendant une seconde sur le bouton sur le recepteur (il clignote alors) puis allumé la télécommande. Lorsque la liaison est établie on peut voir sur la télécommande le Rx a 5V et la barre de  'reception' est affichée.
+Une fois la radio branchée il faut configurer la carte avec cleanflight pour mettre en lien ce qu'on reçois et ce qu'on envoie apres au ESC.
+Tout d'abbord j'ai mis en reception le protocol lié a la AT9 , (ATHER ? pas sure du nom). Puis j'ai laissé le protocol des ESC , vu que la carte arrive deja a les faire tourner correctement : oneshot125.
+Dans le panel 'receiver' , on peut voir ce que la télécommande envoie actuellement comme info a la carte , notre throttle est inversé c'est a dire qu'a la position haute du stick on est au max et a la basse au min. 
+On peut alors voir que pour le raw , pitch , yaw , nos valeur moyenne sont a 1500 (avec un peu de flick) avec un max a ~1950 et un min a ~1000. Pour le throttle le max est a 1950 et le min a un peu moins de 1100.
+
+Il faut donc regler tout sa avant de pouvoir armer les moteurs (la carte refuse pour son bien d'armer avant d'avoir tout configurer).
+La configuration que j'ai mise :
+Dans configuration générale :
+throttle_min : 1100
+throttle_max : 1950
+ESC commande min (peut etre pas le bon som) : 1000 -> si une des valeur de la télécommande passe en dessous de ce seuil la carte considère que les entrées sont erronnée et desarme . De meme pour throttle min et max
+
+Dans receiver :
+commande moyenne : 1500
+RC dead : 3 -> nos valeur 'flick' d'environ 2 tout le temps , apparement parfois sa fait sa quand la télécommande est trop proche du drone mais sait on jammais. Cette valeur sert a dire que si l'entrée ne change pas d'au moins 3 , la carte considère que la valeur est la même que celle d'avant.
+Pour le throttle cette valeur est d'environ 30 (pas forcement necessaire ?).
+
+Apres avoir mis ces parramêtres la carte refusait quand même d'armé les moteurs , donc impossible de tester si finalement en bougeant les stick on arrive a transmettre ce que l'on veut au ESC et moteurs. En effet un parrametre accessible qu'en CLI (interface commande) bloquait , le check_min. Il sert comme les ESC commande min a savoir pour la carte si la valeur envoyé par la télécommande 'throttle' est éronée . La valeur envoyé au minimum par notre receiver est 1083 et le check min était a 1000 donc par sécurité les moteurs étaient bloqué.
+
+Au moment ou j'ai rentré la valeur et sauvegardé , aucun des moteurs n'a tourné (normal vu que j'était sur la télécommande a un throttle de 1083 donc le min) et l'ESC correspondant au moteur n°3 s'est mis soudainement a brûler , une bonne flamme de 10 cm ... J'ai tout de suite débranché la batterie et regardé l'état de celui-ci. Il a l'air d'avoir été endomagé , une partie des circuit dessus s'est dissout et deplacer , pour le moment je n'ai pas tester si il marchait encore mais j'en doute. Le moteur n'a même pas chauffé je presume qu'il na rien mais c'est a tester a la prochaine séance. Les 3 autres esc n'ont rien l'air d'avoir non plus (il n'était pas chaud ,rien) , aussi a tester.
+
+Il peut y avoir plusieurs cause a ce genre d'évenement :
+-L'ESC était au départ defectueux : peu probable étant donné qu'il fesait tourné sans probleme le moteur une heure avant sans chauffé.
+-Avec les vibrations des essais précedant les soudures qu'on avait faite dessus ce sont touché et ont court-circuité l'ESC : c'est cependant invérifiable étant donné qu'avec la chaleur du feu une partie de ce qu'on avait fait a fondu voire s'est dessoudé totalement pour une partie.
+-les données envoyé a l'esc par la carte l'ont fait bruler : sur certain forum c'est arrivé a plusieurs personnes que des données completement érronées envoyé a des ESC BLHeli les fasse prendre feu (ils avaient des  log de leur carte). : malheureusement notre carte n'a pas les capacité de faire des log , donc on ne peut pas savoir ce qu'il s'est exactement passé a cet instant.
+
+Une piste pour éviter d'en bruler un autre est de receptionée et analyser ce que la carte envoie avec la carte arduino pour comprendre vraiment le protocol oneshot125 et si il est vraiement adapté a nos ESC.
+
+Cependant cet incident soulève une question auquel nous n'avons pas assez reflechit : la sécurité. Par exemple si les hélices était branchée et que les moteurs tournais , je n'aurais pas pu detaché la batterie et du attendre qu'il finisse de s'auto détruire avant de pouvoir faire quoi que ce soit. Il nous faut donc un bouton de forçage (armage des moteurs) sur la télecommande (c'est possible dans la barre des AUX , la configuration est fesable depuis cleanfligt) . Et peut etre un physique aussi ? comme un bouton poussoir pour dire OK ou pas qui prendrait le dessus sur celui de la telecommande.
+
+Flash McDrone ne volera pas aussi aisement que prévu on dirait ...
+
+
 
