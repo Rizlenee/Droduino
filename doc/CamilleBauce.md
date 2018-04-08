@@ -84,7 +84,7 @@ La configuration que j'ai mise :
  <ul>
   <li>throttle_min : 1100</li>
   <li>throttle_max : 1950</li>
-<li>ESC commande min (peut etre pas le bon som) : 1000 -> si une des valeur de la télécommande passe en dessous de ce seuil la carte considère que les entrées sont erronnée et desarme . De meme pour throttle min et max</li></ul>
+<li>ESC commande min (peut etre pas le bon nom) : 1000 -> si une des valeur de la télécommande passe en dessous de ce seuil la carte considère que les entrées sont erronnée et desarme . De meme pour throttle min et max</li></ul>
   </li>
 <li>Dans receiver :
  <ul>
