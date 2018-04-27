@@ -117,7 +117,7 @@ Flash McDrone ne volera pas aussi aisement que prévu on dirait ...
  <li>Test du moteur n°3 avec son esc : l'esc répond et le moteur tourne normalement sans surchauffe</li>
  <li>Recalibrage des quatres esc ensemble : reussit</li>
  <li>Reglage de la throttle value de la telecommande , le stick était configuré a l'envers. mode -> reverse -> trottle -> rev. La valeur est maintenant bien a 1086 lorsque le stick est en bas et 1850 lorqu'il est en haut (min et max)</li>
- <li>mise en place d'une sécurité : le stick 'C' doit etre poussé tout en haut pour armé les moteurs. Des qu'il est sur un autre position les moteurs sont désarmés.</li>
+ <li>mise en place d'une sécurité : le stick 'C' doit etre poussé tout en haut pour armé les moteurs. Des qu'il est sur un autre position les moteurs sont désarmés. (correspond a AUX1 sur cleanflight)</li>
  <li>reglage du min_check a 1100 dans le CLI de cleanflight . NB : ne pas oublier la commande save apres modification de le CLI.</li>
  <li>Test de mise en marche des moteurs avec la télecommande reussit. Les moteurs n'arment pas sans le stick 'C' , ne tourne plus avant de lever le throttle (min_throttle a 1000 au lieu de 1100 -> la commande de base envoyée aux esc était trop haute).</li>
  <li>branchement des +/- 12V sur le Vbat donne en temps réel le voltage de la batterie.</li>
