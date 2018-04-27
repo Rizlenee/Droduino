@@ -111,7 +111,7 @@ Cependant cet incident soulève une question auquel nous n'avons pas assez refle
 
 Flash McDrone ne volera pas aussi aisement que prévu on dirait ...
 
-## Vendredi 26 et 27 Avril
+## 26 et 27 Avril
 <p><ul>
  <li>remplacement de l'esc qui avait brulé.</li>
  <li>Test du moteur n°3 avec son esc : l'esc répond et le moteur tourne normalement sans surchauffe</li>
