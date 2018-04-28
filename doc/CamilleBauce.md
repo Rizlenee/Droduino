@@ -127,3 +127,4 @@ Flash McDrone ne volera pas aussi aisement que prévu on dirait ...
 ## 28 Avril
 <p> IL VOLE !!! </p>
 <p>Un petit coucou de flash MacDrone : </p>
+<p><img src ="https://user-images.githubusercontent.com/34765769/39389619-8e5234cc-4a8a-11e8-8c47-b4d3b5b6c40c.gif"></p>
