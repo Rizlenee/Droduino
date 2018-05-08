@@ -52,6 +52,8 @@ Nous souhaitons construire un drone de vitesse, équipée d'un caméra reliée �
 
 <li>identification pin ESC : https://github.com/sim-/tgy/wiki/Identifying-ESC-pin-configuration</li>
 
+<li>hélice de rechange : https://www.ebay.fr/itm/2-Paar-DALPROP-T5045-Cyclone-5-Zoll-Propeller-Luftschraube-FPV-Racing-Drohne/332184892524?hash=item4d57c3346c:m:mVtFZEDUnRriy8xZT6M70gQ </li>
+
 </ul>
 
 
