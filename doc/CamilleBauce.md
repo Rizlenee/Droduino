@@ -138,7 +138,9 @@ Il ne nous reste donc que deux channel disponible (car un est blocké par la sé
 Recuperer le dernier AUX permettrait donc d'avoir un bouton par ajout.
 
 Idée :
-- (optionel) utiliser un switch 3 positions pour les led de positon : éteind ,allumer avec une certaine intensité (50%) , allumer a 100%</p>
--utiliser un switch 2 positions pour la securité moteur
--utiliser un switch 3 positions pour le buzzer : étein, bip a interval régulier , bip continu
--utiliser un bouton tournant pour les phares : la valeur continue permettrait de regler avec precision la luminosité , do 0% (eteind) a 100%.
+- utiliser un switch 2 positions pour la securité moteur
+- utiliser un switch 3 positions pour le buzzer : étein, bip a interval régulier , bip continu
+- utiliser un bouton tournant pour les phares : la valeur continue permettrait de regler avec precision la luminosité , do 0% (eteind) a 100%.
+- (optionel) utiliser un switch 3 positions pour les led de positon : éteind ,allumer avec une certaine intensité (50%) , allumer a 100%
+</p>
+
