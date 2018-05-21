@@ -129,6 +129,16 @@ Flash McDrone ne volera pas aussi aisement que prévu on dirait ...
 <p>Un petit coucou de flash MacDrone : </p>
 <p><img src ="https://user-images.githubusercontent.com/34765769/39389619-8e5234cc-4a8a-11e8-8c47-b4d3b5b6c40c.gif"></p>
 
-## 20 Mai
-<p>Il faut maintenant recuperer les informations des channels AUX (1,2,3,4) du receiver/AT9S pour pouvoir les utiliser avec la carte arduino nano/micro . Ainsi on a :</p>
+## 20 et 21 Mai
+<p>Il faut maintenant recuperer les informations des channels AUX (1,2,3,4) du receiver/AT9S pour pouvoir les utiliser avec la carte arduino nano/micro . Le receiver communique en PWM avec la FC , il faudrait trouver un moyen de transformé ce signal en une valeur (comme le fait la FC) pour pouvoir l'utilisé plus facilement. La manette possède 3 type de bouton qui peuvent etre utilisé avec les systeme des AUX : les switch simple (2 positions) , les switch B et C a 3 positions , les boutons 'tournants' VrA et VrB qui renvoie une valeur continue entre leur min et leur max.
+Ainsi on a :</p>
 <p><img src ="https://user-images.githubusercontent.com/34765769/40329707-b20fd61c-5d4a-11e8-96ce-743a203746fb.JPG"></p>
+<p>Les channels accessible seraient donc les AUX1 , AUX2 et AUX4 correspondant au CH5 , 6 et 8. Le channel 7 ainsi que l'aux 3 n'ont pas repondu a aucun des tests que ce soit avec les switch ou les manettes , la channel 7 renvoie un signal plat constant peut importe sa configuration.
+Il ne nous reste donc que deux channel disponible (car un est blocké par la sécurité d'armage des moteurs) pour les phares / led de position et le buzzer.
+Recuperer le dernier AUX permettrait donc d'avoir un bouton par ajout.
+
+Idée :
+- (optionel) utiliser un switch 3 positions pour les led de positon : éteind ,allumer avec une certaine intensité (50%) , allumer a 100%</p>
+-utiliser un switch 2 positions pour la securité moteur
+-utiliser un switch 3 positions pour le buzzer : étein, bip a interval régulier , bip continu
+-utiliser un bouton tournant pour les phares : la valeur continue permettrait de regler avec precision la luminosité , do 0% (eteind) a 100%.
