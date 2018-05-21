@@ -128,3 +128,7 @@ Flash McDrone ne volera pas aussi aisement que prévu on dirait ...
 <p> IL VOLE !!! </p>
 <p>Un petit coucou de flash MacDrone : </p>
 <p><img src ="https://user-images.githubusercontent.com/34765769/39389619-8e5234cc-4a8a-11e8-8c47-b4d3b5b6c40c.gif"></p>
+
+## 20 Mai
+<p>Il faut maintenant recuperer les informations des channels AUX (1,2,3,4) du receiver/AT9S pour pouvoir les utiliser avec la carte arduino nano/micro . Ainsi on a :</p>
+<p><img src ="https://user-images.githubusercontent.com/34765769/40329707-b20fd61c-5d4a-11e8-96ce-743a203746fb.JPG"></p>
