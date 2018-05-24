@@ -42,7 +42,13 @@ Il nous fallait des entretoises pour séparer la carte de vol et la carte de dis
  <p><img src="https://user-images.githubusercontent.com/34765769/38151859-4480d7d0-3465-11e8-87b3-625beacd6584.png" width="24%"></p>
   
  * <h2>Après-midi du 28 Mars 2018:</h2> 
- Nous avons soudé les esc à la plaque de distribution d'énergie et nous avons rajouté des pins.
+ Nous sommes allées au Fablab pour souder les esc à la plaque de distribution d'énergie ainsi que rajouter des pins.
  
- * <h2>Séance du 28 Mars 2018:</h2>
- J'ai aidé au branchement de la prise de la batterie et regardé certaines presentations de mes camarades.
+ * <h2>Séance du 29 Mars 2018:</h2>
+ Nous avons soudé la prise pour brancher la batterie à la plaque de distribution. Le prof nous a donné les lunettes FPV et la caméra. Il faut maintenant connecter les esc à la carte de vol et tester les moteurs.
+ 
+ * <h2>Séance du 5 Avril 2018:</h2>
+ Nous avons ressoudé les branchements esc-moteurs les moteurs tournés tous dans le même sens et que l'on arrivait pas acceder aux esc. Nous avons fait des recherches sur la radio et la télécommande, puis onous avons commencé les branchements de la radio.
+ 
+ * <h2>Séance du 9 Avril 2018:</h2>
+ Lors des tests effectués par Camille un des esc ont brulé, on t=donc déssoudé cet esc pendant la séance. Nous avon fait notre présentation, à la fin le prof nous a suggéré d'utiliser une arduino pro-micro pour le branchement des led et du buzzer pour ne pas toucher au programme de la carte de vol.
