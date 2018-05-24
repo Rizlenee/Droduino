@@ -117,3 +117,15 @@ Je pense choisir un de ses buzzers :
   <li>https://fr.aliexpress.com/item/Yuenhoang-LED-Bande-60-8mm-De-Frein-Lumi-re-Vol-De-Nuit-Lumi-res-Ceinture-2/32838924777.html?ws_ab_test=searchweb0_0%2Csearchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620%2Csearchweb201603_25%2CppcSwitch_3&algo_expid=2da7e694-ee86-4ecc-bff9-820bd672ad68-3&algo_pvid=2da7e694-ee86-4ecc-bff9-820bd672ad68&transAbTest=ae803_1&priceBeautifyAB=0</li>
   <li>https://www.banggood.com/fr/5V-Colorful-Highlight-Night-LED-Strip-Switch-Ten-Mode-Remote-Control-with-Receiver-for-Racing-Drone-p-1108965.html?gmcCountry=FR&currency=EUR&createTmp=1&utm_source=googleshopping&utm_medium=cpc_ods&utm_content=heath&utm_campaign=PLA-multi-fr-pc&gclid=CjwKCAjwiPbWBRBtEiwAJakcpNsJLMdbjV2DJl8uKUGJ-r5u9ASyRf2AgU4lrVBQu0a8jSyCv1291BoCkLoQAvD_BwE&cur_warehouse=CN</li>
   </ul>
+  
+  
+  
+  
+  24 mai
+  Batterie : 20% 12V --> 9,8V : on prends 10V comme seuil critique 
+  réglage des channels :
+      -CH5 = SwA (moteurs)
+      -CH6 = SwC (led positions)
+      -CH7 = SwD (Buzzer)
+      -CH8 = VrB (intensité phares)
+      -
