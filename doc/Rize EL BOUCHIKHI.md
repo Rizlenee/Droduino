@@ -158,6 +158,6 @@ Comme elle est trop forte, elle a reussi et on a donc maintenant des valeurs bie
 <p><img src="https://user-images.githubusercontent.com/34765769/40558316-359e4f62-6053-11e8-9b9a-7dde5f430e7e.jpg"></p>
 N'est-ce pas magnifique ? :D 
 On a aussi les valeurs pour les channels 7 et 8 (associés au buzzer et aux phares):
-<p><img src="https://user-images.githubusercontent.com/34765769/40558317-39f356de-6053-11e8-8819-6784ebd2a962.jpg" width="43%"> <img src="https://user-images.githubusercontent.com/34765769/40558320-3ce5a856-6053-11e8-9e66-5fe993cb70b7.jpg" width="43%"></p>
+<p><img src="https://user-images.githubusercontent.com/34765769/40558317-39f356de-6053-11e8-8819-6784ebd2a962.jpg" width="50%"> <img src="https://user-images.githubusercontent.com/34765769/40558320-3ce5a856-6053-11e8-9e66-5fe993cb70b7.jpg" width="50%"></p>
 
 On va donc pouvoir réutiliser ses valeurs dans le code et ça devrait marcher !
