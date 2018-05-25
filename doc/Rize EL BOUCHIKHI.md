@@ -99,33 +99,65 @@ Parallèlement, nouvelle révélation ! Le nom de "Droduino" avait été soumis 
 Recherche sur la radio et la télécommande. Début du branchement de la radio à terminer ce week end. (Camille et Yasmin ont aussi pu désouder et resouder dans le sens voulu les moteurs dont on veut inverser le sens de rotation)
 To do ce week-end:branchement radio et télécommande; recherches pour les leds batterie et de positionnement pour pouvoir les commander la semaine prochaine (récupérer notamment la taille des leds phares comme celles qu'utilisent Chapoulie et Benjamin Vouillon); nouveau test des moteurs voir si le sens bon auquel cas --> posage des hélices. Puis premiers vols si tout vas bien, enfin ! Youpi :D
 
-## SEANCE DU 
+## SEANCE DU 09/04/2018
 Un des ESC a brulé lors des tests avec la radio/télécommande de Camille. Dessoudage des cet ESC par Camille et Yasmin pendant que je cherchais les éléments à commander à savoir le buzzer et les leds phares. 
 Présentation devant les professeurs. Pour le branchements du buzzer (et leds ?) on va surement utiliser une carte arduino en plus pour ne pas avoir à toucher à la carte de vol déjà configuré.
 
 ## APRES MIDI DU 23/04/2018
 Recherches buzzer et leds. 
 Je pense choisir un de ses buzzers : 
-<ul><li>https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2FMatek-Lost-Model-Beeper-Flight-Controller-5V-Loud-Buzzer-Built-in-MCU-for-FPV-Drone-Multicopters%2F32851363339.html%3FisOrigTitle%3Dtrue&h=ATOPwMuvNrCNjDTnQTQwDrVCNEWdKG5CEOiayyhIDnfrDdzwXHCbZeBOSqkCvE7ifGKJQrlo8gDJlCTYI93pgorauW_3JXmVmFS4e_VlWg</li>
-  <li>https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2FHGLRC-2-en-1-WS2812B-5-V-LED-avec-Alarme-Buzzer-Moteur-Base-lumi-re-pour%2F32842024243.html%3Fws_ab_test%3Dsearchweb0_0%252Csearchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620%252Csearchweb201603_25%252CppcSwitch_3%26algo_expid%3D69aa0a5a-c26a-4e76-923f-d6597705dd47-12%26algo_pvid%3D69aa0a5a-c26a-4e76-923f-d6597705dd47%26transAbTest%3Dae803_1%26priceBeautifyAB%3D0&h=ATOPwMuvNrCNjDTnQTQwDrVCNEWdKG5CEOiayyhIDnfrDdzwXHCbZeBOSqkCvE7ifGKJQrlo8gDJlCTYI93pgorauW_3JXmVmFS4e_VlWgc(celui ci c'est un buzzer AVEC des leds aussi, donc ça pourrait être sympa)</li>
-  <li>https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2FMatek-WS2812B-LED-5V-Active-Buzzer-6xRGB-LED-Indicator-for-NAZE32-F3-FLIP32-CC3D-Skyline32-Flight%2F32779570201.html%3Fws_ab_test%3Dsearchweb0_0%252Csearchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620%252Csearchweb201603_25%252CppcSwitch_3%26algo_expid%3D69aa0a5a-c26a-4e76-923f-d6597705dd47-17%26algo_pvid%3D69aa0a5a-c26a-4e76-923f-d6597705dd47%26transAbTest%3Dae803_1%26priceBeautifyAB%3D0&h=ATOPwMuvNrCNjDTnQTQwDrVCNEWdKG5CEOiayyhIDnfrDdzwXHCbZeBOSqkCvE7ifGKJQrlo8gDJlCTYI93pgorauW_3JXmVmFS4e_VlWg (un peu comme le précédent mais avec moins de led)</li>
-  <li>https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2F1pc-Hot-Sale-5V-Active-Buzzer-Alarm-Beeper-With-Cable-for-FPV-Racer-Quadcopter-Drone-DIY%2F32726450101.html%3FisOrigTitle%3Dtrue&h=ATOPwMuvNrCNjDTnQTQwDrVCNEWdKG5CEOiayyhIDnfrDdzwXHCbZeBOSqkCvE7ifGKJQrlo8gDJlCTYI93pgorauW_3JXmVmFS4e_VlWg (principals intérêts de celui la : pas cher et pas besoin de soudure)</li>
+<ul><li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2FMatek-Lost-Model-Beeper-Flight-Controller-5V-Loud-Buzzer-Built-in-MCU-for-FPV-Drone-Multicopters%2F32851363339.html%3FisOrigTitle%3Dtrue&h=ATOPwMuvNrCNjDTnQTQwDrVCNEWdKG5CEOiayyhIDnfrDdzwXHCbZeBOSqkCvE7ifGKJQrlo8gDJlCTYI93pgorauW_3JXmVmFS4e_VlWg">lien 1</a></li>
+  <li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2FHGLRC-2-en-1-WS2812B-5-V-LED-avec-Alarme-Buzzer-Moteur-Base-lumi-re-pour%2F32842024243.html%3Fws_ab_test%3Dsearchweb0_0%252Csearchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620%252Csearchweb201603_25%252CppcSwitch_3%26algo_expid%3D69aa0a5a-c26a-4e76-923f-d6597705dd47-12%26algo_pvid%3D69aa0a5a-c26a-4e76-923f-d6597705dd47%26transAbTest%3Dae803_1%26priceBeautifyAB%3D0&h=ATOPwMuvNrCNjDTnQTQwDrVCNEWdKG5CEOiayyhIDnfrDdzwXHCbZeBOSqkCvE7ifGKJQrlo8gDJlCTYI93pgorauW_3JXmVmFS4e_VlWgc(celui ci c'est un buzzer AVEC des leds aussi, donc ça pourrait être sympa)">lien 2</a></li>
+  <li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2FMatek-WS2812B-LED-5V-Active-Buzzer-6xRGB-LED-Indicator-for-NAZE32-F3-FLIP32-CC3D-Skyline32-Flight%2F32779570201.html%3Fws_ab_test%3Dsearchweb0_0%252Csearchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620%252Csearchweb201603_25%252CppcSwitch_3%26algo_expid%3D69aa0a5a-c26a-4e76-923f-d6597705dd47-17%26algo_pvid%3D69aa0a5a-c26a-4e76-923f-d6597705dd47%26transAbTest%3Dae803_1%26priceBeautifyAB%3D0&h=ATOPwMuvNrCNjDTnQTQwDrVCNEWdKG5CEOiayyhIDnfrDdzwXHCbZeBOSqkCvE7ifGKJQrlo8gDJlCTYI93pgorauW_3JXmVmFS4e_VlWg (un peu comme le précédent mais avec moins de led)>lien 3</a></li>
+  <li><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ffr.aliexpress.com%2Fitem%2F1pc-Hot-Sale-5V-Active-Buzzer-Alarm-Beeper-With-Cable-for-FPV-Racer-Quadcopter-Drone-DIY%2F32726450101.html%3FisOrigTitle%3Dtrue&h=ATOPwMuvNrCNjDTnQTQwDrVCNEWdKG5CEOiayyhIDnfrDdzwXHCbZeBOSqkCvE7ifGKJQrlo8gDJlCTYI93pgorauW_3JXmVmFS4e_VlWg">lien 4 (principals intérêts de celui la : pas cher et pas besoin de soudure)</a></li>
   </ul>
  
  Et un de ses phares:
- <ul><li>https://fr.aliexpress.com/item/Original-XK-X380-005-LED-Headlights-for-XK-X380-RC-Quadcopter/32543699121.html?ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620,searchweb201603_25,ppcSwitch_3&algo_expid=2da7e694-ee86-4ecc-bff9-820bd672ad68-0&algo_pvid=2da7e694-ee86-4ecc-bff9-820bd672ad68&transAbTest=ae803_1&priceBeautifyAB=0</li>
-  <li>https://fr.aliexpress.com/item/Yuenhoang-LED-Bande-60-8mm-De-Frein-Lumi-re-Vol-De-Nuit-Lumi-res-Ceinture-2/32838924777.html?ws_ab_test=searchweb0_0%2Csearchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620%2Csearchweb201603_25%2CppcSwitch_3&algo_expid=2da7e694-ee86-4ecc-bff9-820bd672ad68-3&algo_pvid=2da7e694-ee86-4ecc-bff9-820bd672ad68&transAbTest=ae803_1&priceBeautifyAB=0</li>
-  <li>https://www.banggood.com/fr/5V-Colorful-Highlight-Night-LED-Strip-Switch-Ten-Mode-Remote-Control-with-Receiver-for-Racing-Drone-p-1108965.html?gmcCountry=FR&currency=EUR&createTmp=1&utm_source=googleshopping&utm_medium=cpc_ods&utm_content=heath&utm_campaign=PLA-multi-fr-pc&gclid=CjwKCAjwiPbWBRBtEiwAJakcpNsJLMdbjV2DJl8uKUGJ-r5u9ASyRf2AgU4lrVBQu0a8jSyCv1291BoCkLoQAvD_BwE&cur_warehouse=CN</li>
+ <ul><li><a href="https://fr.aliexpress.com/item/Original-XK-X380-005-LED-Headlights-for-XK-X380-RC-Quadcopter/32543699121.html?ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620,searchweb201603_25,ppcSwitch_3&algo_expid=2da7e694-ee86-4ecc-bff9-820bd672ad68-0&algo_pvid=2da7e694-ee86-4ecc-bff9-820bd672ad68&transAbTest=ae803_1&priceBeautifyAB=0">lien 1</a></li>
+  <li><a href="https://fr.aliexpress.com/item/Yuenhoang-LED-Bande-60-8mm-De-Frein-Lumi-re-Vol-De-Nuit-Lumi-res-Ceinture-2/32838924777.html?ws_ab_test=searchweb0_0%2Csearchweb201602_4_10152_10065_10151_10344_10068_5722815_10342_10343_10340_10341_5722915_10698_5722615_10697_10696_10084_10083_10618_10305_10304_10307_10306_10302_5722715_5711215_10059_10184_308_100031_10103_441_10624_10623_10622_5711315_5722515_10621_10620%2Csearchweb201603_25%2CppcSwitch_3&algo_expid=2da7e694-ee86-4ecc-bff9-820bd672ad68-3&algo_pvid=2da7e694-ee86-4ecc-bff9-820bd672ad68&transAbTest=ae803_1&priceBeautifyAB=0">lien 2</a></li>
+  <li><a href="https://www.banggood.com/fr/5V-Colorful-Highlight-Night-LED-Strip-Switch-Ten-Mode-Remote-Control-with-Receiver-for-Racing-Drone-p-1108965.html?gmcCountry=FR&currency=EUR&createTmp=1&utm_source=googleshopping&utm_medium=cpc_ods&utm_content=heath&utm_campaign=PLA-multi-fr-pc&gclid=CjwKCAjwiPbWBRBtEiwAJakcpNsJLMdbjV2DJl8uKUGJ-r5u9ASyRf2AgU4lrVBQu0a8jSyCv1291BoCkLoQAvD_BwE&cur_warehouse=CN">lien 3</a></li>
   </ul>
   
-  
-  
-  
-  24 mai
-  Batterie : 20% 12V --> 9,8V : on prends 10V comme seuil critique 
-  réglage des channels :
-      -CH5 = SwA (moteurs)
-      -CH6 = SwC (led positions)
-      -CH7 = SwD (Buzzer)
-      -CH8 = VrB (intensité phares)
-      -
+## APRES MIDI DU 28/04/2018
+Choix final pour les phares et le buzzer et commande.
+Après configurations avec BLHeli et CleanFlight du drone, Camille a reussi à le faire voler !! Flash McDrone sait voler :D !
+
+## SEANCE DU 02/05/2018
+Ayant récupéré les leds strips auprès de Mr Masson précédement. Je me suis documentée sur le fonctionnement des leds et sur la carte arduino pro micro qui va nous servir pour commander les leds, les phares et le buzzer avec la télécommande sans passer par la carte de vol. 
+
+## SEANCE DU 09/05/2018
+Tests avec les leds strips. Elles fonctionnent bien et les codes tests avec la librairie sont super funs ! Toutefois, la carte arduino chauffe trop (c'était presque brulant à un moment). C'est surement parce qu'il y a trop de leds (60). J'ai essayé de placer une résistance. Ca chauffe beaucoup moins,voir plus du tout mais du coup il n'y a plus assez de tension et toutes les leds ne s'allument plus... Il faudrait essayer d'avoir une resistance plus petite peut être ou trouver une solution alternative.
+
+## SOIREE DU 20/04/2018
+Suite des tests avec les leds strips et écriture d'un premier code simple. Finalement il n'y aura pas besoin de mettre de résistance pour éviter que la carte chauffe, il suffit de diminiuer la luminosité ! Les leds brillent moins fort (ce qui n'est pas plus mal car ça faisait presque mal aux yeux) mais au moins elles sont toutes allumées et la carte arduino ne chauffe plus.
+
+## APRES MIDI DU 24/05/2018
+On considère que le drone ne doit plus voler quand on atteint -20% de sa batterie totale. On a du 12V, on doit poser le drone à 9,8V  du coup on prend 10V.
+Batterie : -20% 12V --> 9,8V : on prends 10V comme seuil critique 
+On a également réglé les channels de la télécommande pour qu'elle puisse gérer l'armage des moteurs, les leds de positions, le buzzer et l'intensité des phares. 
+Réglage des channels :
+      -CH5 = SwA (moteurs) -> deux positions positions
+      -CH6 = SwC (led positions) -> trois positions
+      -CH7 = SwD (Buzzer) -> deux positions
+      -CH8 = VrB (intensité phares) -> roulette
+     
+On a récupéré les valeurs qu'envoi la télécommande a chaque position des switchs pour les channels 6, 7 et 8 avec arduino et le serialplotter:
+<p><img src="https://user-images.githubusercontent.com/34765769/40559765-236d1a3a-6058-11e8-939f-578feb4749c5.PNG" width="33%"> <img src="https://user-images.githubusercontent.com/34765769/40559773-28409924-6058-11e8-8d74-adf3a7a53c78.PNG" width="33%"> <img src="https://user-images.githubusercontent.com/34765769/40559781-2d9eda98-6058-11e8-8df3-3daf3189bec4.PNG" width="33%"></p>
+On voit bien les paliers mais les valeurs ne sont pas très précises, c'est plutôt des fourchettes.
+
+On a également testé les phares reçues. On les a branché à l'arduino, elle même alimenté par le drône (et plus par l'usb) et ça fonctionne mais un des deux phares ne marche pas. Heureusement Mr Masson en a commandé deux donc on pourra brancher les autres à leur place pour avoir deux phares qui fonctionnent (même si en réalité ils n'éclairent pas tellement, les leds strip sont plus lumineuses..). Toutefois, avec les valeurs que l'ont recoit de la télécommande, on n'as pas réussi à faire en sorte que la luminosité change en fonction de comment on troune la petite roulette sur la télécommande donc on a fini par juste mettre une valeur seuil. On a donc que deux états, soit les phares sont allumés, soit ils sont éteints.
+Aussi, Yasmin a réussi à faire fonctionner le buzzer, il va donc falloir inclure sont code à l'arduino et l'ajouter sur le drone.
+
+
+Pour la prochaine fois, Camille va essayer de lire des valeurs plus précises, comme celles que l'on obtient avec Cleanflight. Je dois continuer le code pour les leds strips, et si Camille arrive à avoir des valeurs plus précises les utiliser plutôt que les fourchettes de valeurs que l'on a pour l'instant.
+
+## APRES MIDI DU 25/05/2018
+J'ai essayé mon code pour les leds avec le drone mais ça n'as pas fonctionné. Le code est bon mais les valeurs que l'on reçevait de la télécommande n'étaient plus du tout les même que la veille et ce qu'on lisait était assez abbérant.
+J'ai donc continué à peaufiner le code des leds pour que chaque position (basse, haute, moyenne, etc) du bouton switch associée aux leds soit une couleur ou un motif différent en utilisant les anciennes valeurs tandis que Camille a cherché à récupérer les même valeurs que cleanflight en regardant directement le code source de cleanflight pour voir comment il faisait pour obtenir des valeurs avec une telle précision.
+Comme elle est trop forte, elle a reussi et on a donc maintenant des valeurs bien plus précises pour chaque position du switch :
+<p><img src="https://user-images.githubusercontent.com/34765769/40559765-236d1a3a-6058-11e8-939f-578feb4749c5.PNG"></p>
+N'est-ce pas magnifique ? :D 
+On a aussi les valeurs pour les channels 7 et 8 (associés au buzzer et aux phares):
+<p><img src="https://user-images.githubusercontent.com/34765769/40558317-39f356de-6053-11e8-8819-6784ebd2a962.jpg" width="43%"> <img src="https://user-images.githubusercontent.com/34765769/40558320-3ce5a856-6053-11e8-9e66-5fe993cb70b7.jpg" width="43%"></p>
+
+On va donc pouvoir réutiliser ses valeurs dans le code et ça devrait marcher !
