@@ -144,3 +144,14 @@ Idée :
 - (optionel) utiliser un switch 3 positions pour les led de positon : éteind ,allumer avec une certaine intensité (50%) , allumer a 100%
 </p>
 
+## 24 Mai
+<p>La journée a été consacré uniquement au projet et on a fait de grandes avancées. Le but du jour était de récupérer les informations transmise par le receiver et donc de transformer le PWM en valeur exploitable par notre code : PWM -> int .
+La solution que nous avons trouvé et mis en pratique est : capturé pendant 200ms les tensions d'entrée des trois channel : CH6 , CH7 et CH8 , puis pour chacune d'entre elle faire la moyenne. On obtient donc une tension moyenne pas très stable mais qui suit relativement ce a quoi on s'attendait , voici donc les visuels des valeurs moyennes obtenue avec port plotter pour les trois channels :</p>
+
+<p>entrer image ici</p>
+
+<p>J'ai aussi testé les phares que l'on avait reçu quelques jours avant .Malheureusement un des deux ne fonctionne pas , de plus l'intensité lumineuse émise par celui qui fonctionne est beaucoup plus faible que ce a quoi je m'attendais , il éclaire moins que les leds même a son intensité maximum ! Les phares même si ils ne pouront pas éclairer correctement reste une touche très esthetique sur le petit drone , bien que pas très utile (rajoutant même un peu de poids pour pas grand chose).</p>
+<p>En fin de journée on avait donc : le code du buzzer et ses branchements pret , les phares branché et les valeurs des entrées bien que pas très stable.</p>
+
+## 25 Mai
+
