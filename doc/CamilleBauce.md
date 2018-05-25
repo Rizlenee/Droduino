@@ -155,3 +155,10 @@ La solution que nous avons trouvé et mis en pratique est : capturé pendant 200
 
 ## 25 Mai
 
+<p>En retestant les valeurs d'entrée obtenue grace a notre programme d'hier , on remarque qu'elles ont toutes changé , les valeurs seuils (manette débranchée , position haute et basse , ...) ne sont plus les mêmes. Il faut trouver un moyen d'obtenir des valeurs stables dans le temps comme celle obtenue par la FC grâce a cleanflight.
+ Cleanflight , le logiciel embarqué dans notre carte de vol , étant en open source , je vais jeté un coup d'oeil au code permettant de récuperé ces valeurs. Je vois qu'il existe des fonctions sur l'arduino qui se déclenche lorsque l'entrée passe d'un état bas a un état haut (rising) et inversement (falling) , ces fonctions sont donc appelées en dehors/en parrallele de la loop() et ne gène donc pas l'execution de la boucle principale.  Ainsi j'arrive a obtenir très vite des valeurs d'entrées stable (les même que celle de cleanflight) qui par cette méthode ont aussi l'avantage d'etre mis a jour instantanément (contre 200ms avant) . 
+ </p>
+ <p>En résumé sur le serial port plotter :</p>
+ <p><img src ="https://user-images.githubusercontent.com/34765769/40558316-359e4f62-6053-11e8-9b9a-7dde5f430e7e.jpg"></p>
+ <p><img src ="https://user-images.githubusercontent.com/34765769/40558317-39f356de-6053-11e8-8819-6784ebd2a962.jpg"></p>
+ <p><img src ="https://user-images.githubusercontent.com/34765769/40558320-3ce5a856-6053-11e8-9e66-5fe993cb70b7.jpg"></p>
