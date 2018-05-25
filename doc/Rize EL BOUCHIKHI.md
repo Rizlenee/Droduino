@@ -155,7 +155,7 @@ Pour la prochaine fois, Camille va essayer de lire des valeurs plus précises, c
 J'ai essayé mon code pour les leds avec le drone mais ça n'as pas fonctionné. Le code est bon mais les valeurs que l'on reçevait de la télécommande n'étaient plus du tout les même que la veille et ce qu'on lisait était assez abbérant.
 J'ai donc continué à peaufiner le code des leds pour que chaque position (basse, haute, moyenne, etc) du bouton switch associée aux leds soit une couleur ou un motif différent en utilisant les anciennes valeurs tandis que Camille a cherché à récupérer les même valeurs que cleanflight en regardant directement le code source de cleanflight pour voir comment il faisait pour obtenir des valeurs avec une telle précision.
 Comme elle est trop forte, elle a reussi et on a donc maintenant des valeurs bien plus précises pour chaque position du switch :
-<p><img src="https://user-images.githubusercontent.com/34765769/40559765-236d1a3a-6058-11e8-939f-578feb4749c5.PNG"></p>
+<p><img src="https://user-images.githubusercontent.com/34765769/40558316-359e4f62-6053-11e8-9b9a-7dde5f430e7e.jpg"></p>
 N'est-ce pas magnifique ? :D 
 On a aussi les valeurs pour les channels 7 et 8 (associés au buzzer et aux phares):
 <p><img src="https://user-images.githubusercontent.com/34765769/40558317-39f356de-6053-11e8-8819-6784ebd2a962.jpg" width="43%"> <img src="https://user-images.githubusercontent.com/34765769/40558320-3ce5a856-6053-11e8-9e66-5fe993cb70b7.jpg" width="43%"></p>
