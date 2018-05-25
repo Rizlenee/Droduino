@@ -51,4 +51,4 @@ Il nous fallait des entretoises pour séparer la carte de vol et la carte de dis
  Nous avons ressoudé les branchements esc-moteurs les moteurs tournés tous dans le même sens et que l'on arrivait pas acceder aux esc. Nous avons fait des recherches sur la radio et la télécommande, puis onous avons commencé les branchements de la radio.
  
  * <h2>Séance du 9 Avril 2018:</h2>
- Lors des tests effectués par Camille un des esc ont brulé, on t=donc déssoudé cet esc pendant la séance. Nous avon fait notre présentation, à la fin le prof nous a suggéré d'utiliser une arduino pro-micro pour le branchement des led et du buzzer pour ne pas toucher au programme de la carte de vol.
+ Lors des tests effectués par Camille un des esc a brulé, on a donc déssoudé cet esc pendant la séance. Nous avons fait notre présentation, à la fin le prof nous a suggéré d'utiliser une arduino pro-micro pour le branchement des led et du buzzer pour ne pas toucher au programme de la carte de vol.
