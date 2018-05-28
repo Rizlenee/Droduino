@@ -28,9 +28,9 @@ Finnalement la carte sera une carte deja codé mais avec le plus d'option possib
 
 ## Séance du 7 Fevrier 2018
 Les premières pièces ont été reçu soit toute les pièces nécessaire au montage du drone sauf la batterie. Avec le trinome , Yasmin et Rizlene , on a commencé a monter le chassit et vérifié que toute les pieces était bien présente. Le résultat après 1h30 de montage a 6 bras :
-<img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage1.JPG" width="33%">
-<img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage2.JPG" width="33%">
-<img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage3.JPG" width="33%">
+<img src="https://user-images.githubusercontent.com/34765769/36040753-b29ce33c-0dc6-11e8-9758-a9614520923b.JPG" width="33%">
+<img src="https://user-images.githubusercontent.com/34765769/36040725-a0bb4f3c-0dc6-11e8-95d8-c64550b63c26.JPG" width="33%">
+<img src="https://user-images.githubusercontent.com/34765769/36040743-a96786e6-0dc6-11e8-886e-2ebf033c44bc.JPG" width="33%">
 
 ## 15 Fevrier 2018
 Assemblage des moteurs et des esc sur le chassit. On en a aussi profiter pour vérifié les couples moteurs hélices , en effet les quatres hélices ne sont pas 'montées' dans le même sens , c'est a dire qu'elles produisent pour le même sens de rotation soit une poussée vers le haut soit vers le bas. Les deux d'une même couleur sont inversée et les moteurs avec la même couleurs d'écrou sont de même sens.
