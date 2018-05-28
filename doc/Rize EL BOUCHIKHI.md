@@ -50,7 +50,7 @@ Le temps que tout arrive, il faudra débuter les recherches sur la mise en place
 
 ## SEANCE DU 7/02/2018
 Reception du kit (c'est-à-dire toutes les pièces du drone exceptée la batterie commandé à part), vérification que toutes les pièces étaient présentes et début de l'assemblage du chassis qui s'est révélée plus physique que prévu ! On n'a d'abord divisé le travail pour être plus efficace et j'ai commencé à monter la partie supérieur (les espèces de petites colonnes rouges) pendant que Yasmin et Camille s'occupaient du reste, mais on a vite eu besoin de regrouper nos forces et travailler sur la même chose en même temps, notamment sur le serrage des boulons...
-<p><img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage1.JPG" width="33%"> <img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage2.JPG" width="33%"> <img src="https://github.com/Rizlenee/Droduino/blob/master/doc/montage3.JPG" width="33%"></p>
+<p><img src="https://user-images.githubusercontent.com/34765769/36040753-b29ce33c-0dc6-11e8-9758-a9614520923b.JPG" width="33%"> <img src="https://user-images.githubusercontent.com/34765769/36040725-a0bb4f3c-0dc6-11e8-95d8-c64550b63c26.JPG" width="33%"> <img src="https://user-images.githubusercontent.com/34765769/36040743-a96786e6-0dc6-11e8-886e-2ebf033c44bc.JPG" width="33%"></p>
 Pour le chassis, il ne reste plus qu'a fixer la partie supérieur et la partie inférieur ensemble (mais on le fera surement seulement après avoir mis les autres composants pour que ça soit plus facile à manier) et intégrer les autres composants. Puis, quand tout cela sera fini et que l'on aura reçu la batterie, nous pourrons enfin commencer les essais de vols !
 Go Droduino !
 
@@ -161,3 +161,12 @@ On a aussi les valeurs pour les channels 7 et 8 (associés au buzzer et aux phar
 <p><img src="https://user-images.githubusercontent.com/34765769/40558317-39f356de-6053-11e8-8819-6784ebd2a962.jpg" width="49%"> <img src="https://user-images.githubusercontent.com/34765769/40558320-3ce5a856-6053-11e8-9e66-5fe993cb70b7.jpg" width="49%"></p>
 
 On va donc pouvoir réutiliser ses valeurs dans le code et ça devrait marcher !
+
+## SOIREE DU 27/05/2018 ET JOURNEE DU 28/05/2018
+Le dimanche soir, j'ai continué sur le code des leds pour chercher des effets différents mais j'ai quelques difficultés de programmation pour certains effets.
+
+Le lundi 28, nous sommes allées au Fablab avec Camille et Yasmin pour bricoler. On a construit de nouveaux fils à partir d'anciens car nous avions besoin de plusieurs fils qui aient plus d'une 'sortie' si l'on puit dire. En effet certains pins alimentaient plusieurs éléments différents donc on avait par exemple besoin de fils femelle-mâle/mâle (d'un coté femelle, de l'autre 2 mâles) ou femelle-femelle/mâle... 
+
+Dans l'après midi j'ai encore continué sur le code des leds. Il est maintenant terminé. A chaque position, les leds font quelque chose de différents. Chaque position étant associé à une valeur énvoyée par la télécommande que Camille avait récupérer il y a quelques jours. J'ai aussi rajouté une partie pour le buzzer. Le switch de la télécommande associé au buzzer a 2 position donc j'ai juste associé à la position haute au bip du buzzer en réutilisant le code qu'avait écrit Yasmin.
+Il reste à revoir la partie du code pour les phares: est ce qu'on garde juste 2 états (allumés/éteints) ou est ce que, maintenant que l'on récupère des valeurs précisent de la télécommande, on peut programmer une intensité pogressive.
+Reste aussi à tester le code sur le drone demain et voir s'il fonctionne bien. Il faudra aussi terminer le code et terminer, le plus tôt possible, tout les branchements (des éléments ajoutés, dont la caméra FPV) pour pouvoir finir l'assemblage complet avec tout les éléments afin de pouvoir s'entrainer à le faire voler. On sera comme ça peut être capable de faire une démonstration sympas lors de la soutenance. 
