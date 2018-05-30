@@ -33,6 +33,7 @@ Nous n'assemblerons les deux parties du chassis qu'une fois que l'on aura ajout�
 
 * <h2>Après-midi du 15 Février 2018:</h2>
 Nous avons vissé les moteurs au chassis puis nous avons mis les hélices que nous n'avons pas laissé par manque de praticité.
+<p><img src="https://user-images.githubusercontent.com/34765769/38151235-be011d20-3462-11e8-8829-007fe61e9d9e.png" width="50%"></p>
 * <h2>Journée du 21 Février 2018:</h2>
 Il nous fallait des entretoises pour séparer la carte de vol et la carte de distribution d'énergie que camille est allée au fablab:
 <p><img src="https://user-images.githubusercontent.com/34765769/38151835-30c9cecc-3465-11e8-8761-8c88ae11427f.png" width="50%"></p>
@@ -52,3 +53,24 @@ Il nous fallait des entretoises pour séparer la carte de vol et la carte de dis
  
  * <h2>Séance du 9 Avril 2018:</h2>
  Lors des tests effectués par Camille un des esc a brulé, on a donc déssoudé cet esc pendant la séance. Nous avons fait notre présentation, à la fin le prof nous a suggéré d'utiliser une arduino pro-micro pour le branchement des led et du buzzer pour ne pas toucher au programme de la carte de vol.
+ 
+
+ * <h2>Séance du 2 Mai 2018:</h2>
+   Mr Masson nous a donné les leds strips et nous avons essayé de comprendre leur fonctionnement.
+   
+   
+ * <h2>Séance du 9 Mai 2018:</h2>
+ Nous avons testé  des codes avec les leds strips connecté à la pro-micro. La carte chauffe nous avons donc essyé avec des leds.
+ 
+ 
+ * <h2>Après-midi du 24 Mai 2018:</h2>
+ J'ai cherché comment fonctionne le buzzer que nous avons reçu sachant que ce n'était pas tout à fait celui que nous avions commandé.
+ J'ai utilsé la fonction tone() qui génere une onde à une fréquence choisie durant une periode choisie.
+ 
+  * <h2>Après-midi du 28 Mai 2018:</h2>
+  Nous sommes allées au Fablab pour crée des fils avec plusieurs sorties à partir de fils simples pour les connecter à la carte de vol car certains pins alimentent plusieurs éléments.
+  
+   * <h2>Après-midi du 29 Mai 2018:</h2>
+   Nous avons continué le code des leds, pour chaque position du boutons switch on a choisis un éclairage( clignotant rouge, arc-en-ciel...) fournit par les leds. Mais lorsque l'on a branché le tout sans relier la carte à l'ordinateur, les valeurs reçues par la radio sont anormales.
+   
+   * <h2>Après-midi du 30 Mai 2018:</h2>
