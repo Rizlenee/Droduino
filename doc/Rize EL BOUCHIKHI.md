@@ -165,8 +165,22 @@ On va donc pouvoir réutiliser ses valeurs dans le code et ça devrait marcher !
 ## SOIREE DU 27/05/2018 ET JOURNEE DU 28/05/2018
 Le dimanche soir, j'ai continué sur le code des leds pour chercher des effets différents mais j'ai quelques difficultés de programmation pour certains effets.
 
-Le lundi 28, nous sommes allées au Fablab avec Camille et Yasmin pour bricoler. On a construit de nouveaux fils à partir d'anciens car nous avions besoin de plusieurs fils qui aient plus d'une 'sortie' si l'on puit dire. En effet certains pins alimentaient plusieurs éléments différents donc on avait par exemple besoin de fils femelle-mâle/mâle (d'un coté femelle, de l'autre 2 mâles) ou femelle-femelle/mâle... 
+Le lundi 28, nous sommes allées au Fablab avec Camille et Yasmin pour bricoler. On a construit de nouveaux fils à partir d'anciens car nous avions besoin de plusieurs fils qui aient plus d'une 'sortie' car nous avions besoin de plus de sorties que celles disponibles sur la carte de distribution d'énergie et de l'arduino pro micro. En effet certains pins alimentaient plusieurs éléments différents donc on avait par exemple besoin de fils femelle-mâle/mâle (d'un coté femelle, de l'autre 2 mâles) ou femelle-femelle/mâle... pour les grounds et vcc.
 
-Dans l'après midi j'ai encore continué sur le code des leds. Il est maintenant terminé. A chaque position, les leds font quelque chose de différents. Chaque position étant associé à une valeur énvoyée par la télécommande que Camille avait récupérer il y a quelques jours. J'ai aussi rajouté une partie pour le buzzer. Le switch de la télécommande associé au buzzer a 2 position donc j'ai juste associé à la position haute au bip du buzzer en réutilisant le code qu'avait écrit Yasmin.
+Dans l'après midi j'ai encore continué sur le code des leds. Il est maintenant terminé. A chaque position, les leds font quelque chose de différents. Chaque position étant associé à une valeur énvoyée par la télécommande que Camille avait récupérer il y a quelques jours. En outre, les leds consommant trop de courant sur la carte, elles seront alimenter directement par la carte de distribution den l'énergie (en 5V) mais toujours controlé par la pro micro. J'ai aussi rajouté une partie pour le buzzer. Le switch de la télécommande associé au buzzer a 2 position donc j'ai juste associé à la position haute au bip du buzzer en réutilisant le code qu'avait écrit Yasmin.
 Il reste à revoir la partie du code pour les phares: est ce qu'on garde juste 2 états (allumés/éteints) ou est ce que, maintenant que l'on récupère des valeurs précisent de la télécommande, on peut programmer une intensité pogressive.
+Buzzer et phares demandent peu de courant donc on va pouvoir les alimenter avec l'arduino sans trop de problème.
+
 Reste aussi à tester le code sur le drone demain et voir s'il fonctionne bien. Il faudra aussi terminer le code et terminer, le plus tôt possible, tout les branchements (des éléments ajoutés, dont la caméra FPV) pour pouvoir finir l'assemblage complet avec tout les éléments afin de pouvoir s'entrainer à le faire voler. On sera comme ça peut être capable de faire une démonstration sympas lors de la soutenance. 
+
+## APRES MIDI DU 29/05/2018
+
+Finalisation du code pour et les leds et les phares et les buzzer. Toutefois, quand on a tout branché, selon la position de certains switch, on reçoit des valeurs parfois complètement chaotique. En lisant avec le port série, il semblerait que le problème puisse venir du channel 5 qui ferait bugger les autres. Ou peut être du pin 1 (pin sur lequel on lit les valeurs du CH5) puisque c'est normalement un des pins TX/RX.
+
+## APRES MIDI DU 30/05/2018
+
+Problème de la reception de valeur chaotique résolu. En fait, la fonction show() qui permet d'initialiser les leds dans le code A CONTINUER
+
+[insérer vidéo avec les leds qui changes de couleurs]
+
+Demain il restera à terminer l'assemblage finale pour ne plus avoir des fils partou, placer chaque composant à sa place, viser la partie supérieur du chassis une bonne fois pour toute et placer la caméra. Il faut aussi terminer le rapport déjà commencer pour faire le powerpoint de la présentation.
