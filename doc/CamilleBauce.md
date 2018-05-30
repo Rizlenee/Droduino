@@ -163,12 +163,12 @@ La solution que nous avons trouvé et mis en pratique est : capturé pendant 200
  <p><img src ="https://user-images.githubusercontent.com/34765769/40558317-39f356de-6053-11e8-8819-6784ebd2a962.jpg"></p>
  <p><img src ="https://user-images.githubusercontent.com/34765769/40558320-3ce5a856-6053-11e8-9e66-5fe993cb70b7.jpg"></p>
  
- ##28 Mai
+ ## 28 Mai
  <p>Petit tour au Fablab pour créer des jonctions de cable arduino , en effet nous besoin de plus de sorties que celles disponible sur la carte de distribution d'énergie et de l'arduino pro micro.Il nous fallait donc des cables possèdant une entrée et plusieur sortie , le voltage ne changeant pas lorque l'on rajoute des élements en parrallèle.
  </p>
 <p>On a aussi toute enssemble prevu les dernièrs branchement et emplacements des derniers composants sur le drone .Le courant pour le buzzer et les phares étant très faible , on les branchera directement a l'arduino .Cependant le led strip (60 leds de position) necessite plus de courant et sera donc directement alimenté par la batterie (et en 5V grace a la carte de distribution) bien que controlé par l'arduino. </p>
 
-##29 Mai
+## 29 Mai
 <p>On assemble tout les morceaux de code enssemble , c'est a dire la reception du signal et les controle des leds/phares/buzzer.
 Lorsque tout est branché , les valeurs sont parfois stable , parfois chaotique. Le probleme viendrait du pin 1 ou CH5 qui ferait bug toute les autre , a voir.
 </p>
