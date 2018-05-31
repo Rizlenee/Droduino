@@ -194,3 +194,5 @@ Voici un avant/après de flash McDrone :</p>
 <p>L'emplacement du buzzer et de la carte arduino pro micro a été difficile a trouver. Finalement j'ai eu besoin d'une petite plaque en bois pour les coller dessus et les placés sur les vis , juste derriere la camera fpv. (la batterie de la camera fpv est collé avec de l'adhesif sous le drone)</p>
 
 <p><img src="https://user-images.githubusercontent.com/34765769/40811032-01c60644-6530-11e8-84aa-4804c95e6adf.JPG"> </p>
+
+<p>Apres avoir fini les fixations , tout fonctionne du premier coup! La team se reunit dehors pour le 1er vol de Flash McDrone avec toute ses fonctionnalité. Il n'a aucun probleme a s'envoler et a voler un peu , il est très stable. Lors de l'atterisage pas très en douceur grace a un pilote d'excetion (moi) mais tout de meme sur ses pattes ; la pale qui s'était deja cassée auparavent se redétache. C'était peu être son premier et dernier vol car nous n'avons pas d'hélice en remplacement ...</p>
