@@ -189,7 +189,7 @@ La solution que j'ai trouvé est donc de 'detaché' toute les interruptions le t
 <p>Dernier jour , dernier assemblage. Il faut trouver comment agencer tout les fils et les composants de tel façon a ce qu'il ne soit pas trop sensible au varariation et ne puisse pas toucher les hélices en vol.
 Voici un avant/après de flash McDrone :</p>
 
-<p><img src="https://user-images.githubusercontent.com/34765769/40810874-76666cf6-652f-11e8-8b20-249701e57772.JPG" width="49%"> <img src="https://user-images.githubusercontent.com/34765769/40559773-28409924-6058-11e8-8d74-adf3a7a53c78.PNG" width="49%"> </p>
+<p><img src="https://user-images.githubusercontent.com/34765769/40810874-76666cf6-652f-11e8-8b20-249701e57772.JPG" width="49%"> <img src="https://user-images.githubusercontent.com/34765769/40813124-89a8de8e-6539-11e8-8f51-ae5ec98aa746.png" width="49%"> </p>
 
 <p>L'emplacement du buzzer et de la carte arduino pro micro a été difficile a trouver. Finalement j'ai eu besoin d'une petite plaque en bois pour les coller dessus et les placés sur les vis , juste derriere la camera fpv. (la batterie de la camera fpv est collé avec de l'adhesif sous le drone)</p>
 
