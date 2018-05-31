@@ -172,4 +172,21 @@ La solution que nous avons trouvé et mis en pratique est : capturé pendant 200
 <p>On assemble tout les morceaux de code enssemble , c'est a dire la reception du signal et les controle des leds/phares/buzzer.
 Lorsque tout est branché , les valeurs sont parfois stable , parfois chaotique. Le probleme viendrait du pin 1 ou CH5 qui ferait bug toute les autre , a voir.
 </p>
- 
+
+## 30 Mai
+<p>Les valeurs n'étaient finalement pas stable a cause du code. En effet on récupere les valeurs avec des fonction 'Interrupt' , ces fonctions sont lié a une action (ici la detection d'un front montant ou descendant sur l'un des pin associé) . Les interrupt arretent l'exection de la fonction en cours pour y revenir ensuite (la ou elle s'était arretée), lorque la fonction lié a l'interrupt a fini son execution. Chaque appel d'interruption se stocke/s'accumule lorsque la fonction dans laquelle on se trouve actuellement ne peut pas etre interompu.</p>
+
+<p>Le code qui permetait de recupérer les valeurs fonctionne de la manière suivante :
+ -je detecte un front montant : je sotcke le temps actuel puis j'attache une interruption sur un front descendant
+ -je detecte un front descendant : ma valeur vaut 'mon temps actuel'- 'temps de front montant' , puis j'attache une interruption sur un front montant (ainsi on boucle)
+Le probleme avec sa est que si plusieur interruption s'accumule , alors elle vont toute s'executer d'affilé et les valeur seront alors tres faible par rapport a celle reçu (et tres fausse aussi). Deuxieme probleme , si un front descendant tombe pendant une fonction qui ne peut etre interompue , alors l'interuption va avoir du retard et la valeur sera plus grande que celle de départ. Les valeurs seront donc chaotique si les interruption sont toujours active et valide durant ce genre de fonction.</p>
+
+<p>La fonction qui ne peut pas etre interrompue dans notre programme est la fonction show() de adafruit neopixels qui permet de transferer les nouvelles données de couleurs et intensité au led_strip. Nous avons 60 leds en serie , la transmission de ces données par la fonction show était donc plutot longue ou du moins assez pour faussé toute nos valeur.
+La solution que j'ai trouvé est donc de 'detaché' toute les interruptions le temps de cette fonction puis de les rattaché (sur front montant) juste après. Ainsi on perd toute les valeurs reçu durant ce temps mais les valeurs traitées au final sont toute stable.</p>
+
+## 31 Mai
+
+<p>Dernier jour , dernier assemblage. Il faut trouver comment agencer tout les fils et les composants de tel façon a ce qu'il ne soit pas trop sensible au varariation et ne puisse pas toucher les hélices en vol.
+Voici un avant/après de flash McDrone :</p>
+
+<p><img src="https://user-images.githubusercontent.com/34765769/40810874-76666cf6-652f-11e8-8b20-249701e57772.JPG" width="49%"> <img src="https://user-images.githubusercontent.com/34765769/40559773-28409924-6058-11e8-8d74-adf3a7a53c78.PNG" width="49%"> </p>
