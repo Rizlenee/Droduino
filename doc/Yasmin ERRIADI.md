@@ -74,3 +74,9 @@ Il nous fallait des entretoises pour séparer la carte de vol et la carte de dis
    Nous avons continué le code des leds, pour chaque position du boutons switch on a choisis un éclairage( clignotant rouge, arc-en-ciel...) fournit par les leds. Mais lorsque l'on a branché le tout sans relier la carte à l'ordinateur, les valeurs reçues par la radio sont anormales.
    
    * <h2>Après-midi du 30 Mai 2018:</h2>
+   Nous avons modifié le code des leds strips afin de régler le problème des valeurs instables qui était du au mauvais usage de la fonction show().
+   A présent ce problème est réglé et chaque position du switch affiche la couleur souhaitée.
+  
+   * <h2>Après-midi du 31 Mai 2018:</h2>
+   Nous avons finalisé l'assemblage du drone et collé les leds strips tout autour du drone. Nous avons fait voler le drone qui est stable au demarrage mais lors de l'atterissage un peu trop brutale une pale s'est cassée.
+   <p><img src="https://user-images.githubusercontent.com/34765769/40813124-89a8de8e-6539-11e8-8f51-ae5ec98aa746.png"width="50%"></p>
