@@ -179,8 +179,19 @@ Finalisation du code pour et les leds et les phares et les buzzer. Toutefois, qu
 
 ## APRES MIDI DU 30/05/2018
 
-Problème de la reception de valeur chaotique résolu. En fait, la fonction show() qui permet d'initialiser les leds dans le code A CONTINUER
+Problème de la reception de valeur chaotique résolu. En fait, c'était la fonction show() qui permet d'initialiser les leds dans le code qui interférait avec la réception des valeurs de la télécommande. Du coup on a du remplacher tout les show() dans le code par une fonction que Camille a réussi à écrire qui permet d'utiliser le show() beaucoup, beaucoup moins de fois et du coup on reçoit les bonnes valeurs ! 
+Du coup ça y est, le code fonctionne bien ! Les leds changent bien de couleur aux bonnes positions de la switch de la télécommandes
+<p><img src="https://user-images.githubusercontent.com/34765769/40820931-d2b76b52-6563-11e8-91d8-e789eae58866.png" width="49%"> <img src="https://user-images.githubusercontent.com/34765769/40820938-d9c07484-6563-11e8-8004-1b6f360bd109.png" width="49%"></p>
 
-[insérer vidéo avec les leds qui changes de couleurs]
 
-Demain il restera à terminer l'assemblage finale pour ne plus avoir des fils partou, placer chaque composant à sa place, viser la partie supérieur du chassis une bonne fois pour toute et placer la caméra. Il faut aussi terminer le rapport déjà commencer pour faire le powerpoint de la présentation.
+le buzzer émet du bruit sur la bonne position du switch correspondant de la télécommande et les phares répondent bien aux commandes également (changement progressif de l'intensité) sauf qu'il y a eu quelques faux contacts et les branchements entre l'alimentation et les phares est infernale et très dure on va donc récouper les fils et les souder entre eux directement.
+Voilà à quoi ressemble Flash McDrone actuellement :
+<p><img src="https://user-images.githubusercontent.com/34765769/40810874-76666cf6-652f-11e8-8b20-249701e57772.JPG"></p>
+
+Demain, en plus des soudures pour les phares, il restera à terminer l'assemblage finale pour ne plus avoir des fils partout, placer chaque composant à sa place, viser la partie supérieur du chassis une bonne fois pour toute et placer la caméra et fixer les leds. Il faut aussi terminer le rapport déjà commencer pour faire le powerpoint de la présentation.
+
+## MATINEE ET APRES MIDI DU 31/05/2018
+DERNIER JOUR ! Soudure des phares avec l'alimentation (provenant de l'arduino) et réarrangement de quelques fils. Collage des leds strip sur tout le contour du châssis qui a demandé de l'endurance. Fixation des phares avec pleins de petits bouts de scotch ce qui a été assez long. Fixation de la carte arduino et du buzzer dans la partie supérieur du châssis que l'on a revissée. Fixation de la caméra à l'avant du drone et de sa batterie en dessous du drone. Le drone est maintenant officiellement terminé ! Et tout fonctionne !
+On l'a fait voler et Frash McDrone vole très bien ! Mais l'attérissage a été un peu violent donc l'hélice qui avait déjà été cassé lors du premier vol d'essai et recollé s'est recassé donc il fonctionne très bien mais on ne peut plus le faire voler. On va essayer de recoller la pale cassée pour pouvoir faire une démonstration lors de l'oral demain. 
+Il ne nous reste donc plus que l'oral de présentation. 
+En tout cas ce fut une bien belle aventure :) ! Go Droduino, Go !
