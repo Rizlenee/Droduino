@@ -192,7 +192,7 @@ Demain, en plus des soudures pour les phares, il restera à terminer l'assemblag
 
 ## MATINEE ET APRES MIDI DU 31/05/2018
 DERNIER JOUR ! Soudure des phares avec l'alimentation (provenant de l'arduino) et réarrangement de quelques fils. Collage des leds strip sur tout le contour du châssis qui a demandé de l'endurance. Fixation des phares avec pleins de petits bouts de scotch ce qui a été assez long. Fixation de la carte arduino et du buzzer dans la partie supérieur du châssis que l'on a revissée. Fixation de la caméra à l'avant du drone et de sa batterie en dessous du drone. Le drone est maintenant officiellement terminé ! Et tout fonctionne !
-<p><img src="https://user-images.githubusercontent.com/34765769/40821230-d96f0ca0-6565-11e8-8117-103cbf96bd04.jpg" width="33%"> <img src="https://user-images.githubusercontent.com/34765769/40821255-fa9b4a1a-6565-11e8-98ba-e3223e6b8b5f.jpg" width="33%"> <img src="(https://user-images.githubusercontent.com/34765769/40821261-ff9837d0-6565-11e8-9da5-4cf42e528a7e.jpg" width="33%"></p>
+<p><img src="https://user-images.githubusercontent.com/34765769/40821230-d96f0ca0-6565-11e8-8117-103cbf96bd04.jpg" width="33%"> <img src="https://user-images.githubusercontent.com/34765769/40821255-fa9b4a1a-6565-11e8-98ba-e3223e6b8b5f.jpg" width="33%"> <img src="https://user-images.githubusercontent.com/34765769/40821261-ff9837d0-6565-11e8-9da5-4cf42e528a7e.jpg" width="33%"></p>
 
 On l'a fait voler et Frash McDrone vole très bien ! Le voilà en plein vol :
 <p><img src="https://user-images.githubusercontent.com/34765769/40821108-138624a6-6565-11e8-902a-7932094e10a5.png"></p>
